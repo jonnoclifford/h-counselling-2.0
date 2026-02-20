@@ -1,26 +1,152 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================
+   FONT FACES
+   ============================================ */
+
+/* Swarsh Daisy — Elegant Serif Display (Headings) */
+@font-face {
+  font-family: "Swarsh Daisy";
+  src:
+    url("/fonts/swarsh-daisy/Swarsh Daisy-Regular.woff2") format("woff2"),
+    url("/fonts/swarsh-daisy/Swarsh Daisy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Swarsh Daisy";
+  src:
+    url("/fonts/swarsh-daisy/Swarsh Daisy-Italic.woff2") format("woff2"),
+    url("/fonts/swarsh-daisy/Swarsh Daisy-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Juturu — Clean Sans-Serif (Body) — Variable Font */
+@font-face {
+  font-family: "Juturu";
+  src:
+    url("/fonts/juturu/Juturu-VariableVF.woff2") format("woff2-variations"),
+    url("/fonts/juturu/Juturu-VariableVF.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Enligas — Freestyle Display (Accent/Logo) */
+@font-face {
+  font-family: "Enligas";
+  src:
+    url("/fonts/enligas/Enligas-Regular.woff2") format("woff2"),
+    url("/fonts/enligas/Enligas-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Enligas";
+  src:
+    url("/fonts/enligas/Enligas-Italic.woff2") format("woff2"),
+    url("/fonts/enligas/Enligas-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ============================================
+   TAILWIND THEME
+   ============================================ */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+  --color-oat: #F9F6F0;
+  --color-oat-dark: #F0EBE1;
+  --color-matcha: #B5BF8E;
+  --color-matcha-light: #D4DCBD;
+  --color-matcha-dark: #8A9665;
+  --color-lilac: #C7BADA;
+  --color-lilac-light: #E0D8EC;
+  --color-lilac-dark: #9E8DBF;
+  --color-terracotta: #D4845A;
+  --color-terracotta-light: #E5A882;
+  --color-terracotta-dark: #B5663C;
+  --color-blush: #ECCCBF;
+  --color-blush-light: #F5E2DA;
+  --color-warm-charcoal: #3A3533;
+  --color-warm-muted: #7A7470;
+  --color-warm-light: #A8A29E;
+
+  /* Fonts */
+  --font-display: "Enligas", "Georgia", serif;
+  --font-body: "Juturu", "Inter", "Helvetica Neue", sans-serif;
+  --font-accent: "Swarsh Daisy", "Georgia", serif;
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-slide-up: slide-up 0.6s ease-out forwards;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F9F6F0;
+  color: #3A3533;
+  font-family: "Juturu", "Inter", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: "Enligas", "Georgia", serif;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+/* Selection */
+::selection {
+  background-color: #C7BADA;
+  color: #3A3533;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #D4845A;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9F6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7BADA;
+  border-radius: 999px;
 }
