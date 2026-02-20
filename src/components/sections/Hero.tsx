@@ -23,7 +23,10 @@ export default function Hero() {
             </AnimateIn>
 
             <AnimateIn delay={0.2}>
-              <h1 className="font-display text-[2.5rem] md:text-7xl lg:text-8xl text-warm-charcoal leading-[1.1] mb-4 md:mb-6">
+              <h1
+                className="font-display text-[2.5rem] md:text-7xl lg:text-8xl text-warm-charcoal leading-[1.1] mb-4 md:mb-6"
+                style={{ textShadow: "2px 2px 0px #C7BADA" }}
+              >
                 You don&apos;t need to have it all figured out
               </h1>
             </AnimateIn>
