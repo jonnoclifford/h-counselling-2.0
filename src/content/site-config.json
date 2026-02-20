@@ -1,0 +1,1543 @@
+{
+  "homepage": {
+    "hero": {
+      "label": "Online & telephone therapy",
+      "heading": "You don't need to have it all figured out",
+      "subheading": "A safe, warm space to talk about whatever matters to you. Person-centred therapy at your pace, from wherever feels most comfortable.",
+      "primaryCta": { "text": "Book a Free 15-Min Chat", "href": "/contact" },
+      "secondaryCta": { "text": "Learn More", "href": "/about" },
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace, surrounded by birds"
+    },
+    "marquee": {
+      "text": "Is it time to talk?"
+    },
+    "introduction": {
+      "label": "Nice to meet you",
+      "heading": "Hello, I'm Harriet",
+      "paragraphs": [
+        "I'm a fully qualified, BACP-accredited, person-centred counsellor. I offer online and telephone therapy sessions from the comfort of your own space.",
+        "I believe that everyone deserves to be heard. Without judgement, without pressure, and without being told what to do. My role is to create a safe, warm space where you can talk openly about whatever matters to you.",
+        "Whether you're going through something specific or just feel like something isn't quite right, I'm here to listen. We work at your pace, always."
+      ],
+      "buttonText": "Learn More About Me",
+      "buttonHref": "/about",
+      "image": "/images/harriet-home.png",
+      "imageAlt": "Harriet, person-centred counsellor"
+    },
+    "statements": [
+      {
+        "text": "You deserve to feel like yourself again.",
+        "subtitle": "You don't need to wait until things get worse. If something feels off, that's reason enough to talk.",
+        "bg": "lilac",
+        "shadow": "orange"
+      },
+      {
+        "text": "Reaching out takes courage. You've already started.",
+        "subtitle": "Even being here, reading this. That's a step. And it matters.",
+        "bg": "terracotta",
+        "shadow": "purple"
+      },
+      {
+        "text": "You don't have to carry it all on your own.",
+        "bg": "lilac",
+        "shadow": "orange"
+      }
+    ],
+    "services": {
+      "label": "What I can help with",
+      "heading": "You don't need a label",
+      "description": "If something doesn't feel right, that's enough. Here are some of the things people come to me with.",
+      "items": [
+        {
+          "title": "Anxiety & Stress",
+          "description": "Racing thoughts, constant worry, or that feeling of dread that won't shift. You don't have to manage it alone.",
+          "illustration": "/images/illustrations/anxious-man-tangled-thoughts.svg",
+          "bgColor": "bg-lilac-light/40"
+        },
+        {
+          "title": "Low Mood & Depression",
+          "description": "When everything feels heavy and getting through the day is a struggle. There's no pressure to 'snap out of it' here.",
+          "illustration": "/images/illustrations/distressed-man.svg",
+          "bgColor": "bg-blush-light/50"
+        },
+        {
+          "title": "Relationships",
+          "description": "Navigating tricky dynamics, boundaries, or breakups. Whatever's going on, we can talk it through together.",
+          "illustration": "/images/illustrations/self-criticism-mirror.svg",
+          "bgColor": "bg-matcha-light/40"
+        },
+        {
+          "title": "Self-Esteem & Identity",
+          "description": "Feeling like you're not enough, or not sure who you really are. This is a space to explore that without judgement.",
+          "illustration": "/images/illustrations/overwhelmed-woman.svg",
+          "bgColor": "bg-oat-dark"
+        },
+        {
+          "title": "Burnout & Work Stress",
+          "description": "Running on empty, dreading Mondays, or feeling like you can't switch off. Let's find a way through.",
+          "illustration": "/images/illustrations/work-stress.svg",
+          "bgColor": "bg-lilac-light/30"
+        },
+        {
+          "title": "Life Transitions",
+          "description": "Big changes can be overwhelming. New jobs, moves, loss, or just feeling stuck. Whatever it is, you don't have to figure it out alone.",
+          "illustration": "/images/illustrations/problem-solving.svg",
+          "bgColor": "bg-blush/30"
+        }
+      ]
+    },
+    "process": {
+      "label": "How it works",
+      "heading": "Three gentle steps",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Get in touch",
+          "description": "Fill in my contact form or send me an email. No pressure, no commitment. Just a hello."
+        },
+        {
+          "number": "02",
+          "title": "Free 15-minute chat",
+          "description": "We'll have a relaxed phone call so you can ask questions and see if it feels right for you."
+        },
+        {
+          "number": "03",
+          "title": "Begin your sessions",
+          "description": "50-minute sessions by Zoom or phone, at a time that works for you. We go at your pace, always."
+        }
+      ]
+    },
+    "testimonials": {
+      "label": "Kind words",
+      "heading": "What my clients say",
+      "items": [
+        {
+          "quote": "Harriet made me feel completely at ease from the very first session. I'd never had therapy before and was really nervous, but she created such a warm and safe space. I finally feel like myself again.",
+          "author": "Former Client"
+        },
+        {
+          "quote": "I was struggling with anxiety for years before I reached out. Harriet listened without judgement and helped me understand myself in ways I never had before. I can't recommend her enough.",
+          "author": "Former Client"
+        },
+        {
+          "quote": "The online sessions were so much more comfortable than I expected. Being able to talk from my own home made such a difference. Harriet is kind, patient, and genuinely cares.",
+          "author": "Former Client"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to take the first step?",
+      "description": "Taking the first step can feel like the hardest part. But you don't have to have it all figured out. Just get in touch and we'll take it from there.",
+      "buttonText": "Book Your Free Consultation",
+      "buttonHref": "/contact",
+      "emailText": "Or email me directly at",
+      "email": "hcounselling@outlook.com"
+    }
+  },
+  "about": {
+    "hero": {
+      "heading": "Hi, I'm Harriet",
+      "subtitle": "A person-centred counsellor who believes you already have the answers. You just need the right space to find them."
+    },
+    "story": {
+      "label": "My story",
+      "heading": "The winding path that brought me here",
+      "paragraphs": [
+        "I didn't always know I wanted to be a therapist. Like many people, I took a winding path to get here. And I think that's part of what makes me good at what I do.",
+        "My own experiences with life's challenges taught me how powerful it is to be truly listened to. Not fixed, not advised, not judged. Just heard. That feeling of being understood, without conditions, changed something in me.",
+        "I trained as a person-centred counsellor because I believe deeply that people have the capacity to find their own answers. They just need the right space to do it.",
+        "I completed my Diploma in Counselling and Psychotherapy and went on to gain additional training in creative therapeutic techniques. I'm a fully accredited member of the BACP, which means I'm bound by their ethical framework and committed to ongoing professional development.",
+        "Today, I work online and by telephone, which means you can access therapy from wherever feels most comfortable and safe for you. Whether that's your living room, your car, or a quiet corner of your day."
+      ]
+    },
+    "approach": {
+      "label": "My approach",
+      "heading": "You are the expert on your own life",
+      "paragraphs": [
+        "I don't tell you what to do or give you a list of exercises to try. Instead, I create a space where you can talk openly about whatever matters to you, without being judged.",
+        "Person-centred therapy is built on the belief that you are the expert on your own life. You know yourself better than anyone else.",
+        "We work at your pace. Some sessions might feel heavy, others might feel lighter. There's no wrong way to do it. What matters is that the space is yours."
+      ],
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person at peace"
+    },
+    "qualifications": {
+      "label": "Qualifications",
+      "heading": "Training & credentials",
+      "items": [
+        "BA Honours Degree",
+        "Diploma in Counselling and Psychotherapy",
+        "CPD Certificate in Creative Techniques",
+        "BACP Accredited Member (MBACP)",
+        "Registered with the BACP (Membership No. 407181)"
+      ]
+    },
+    "cta": {
+      "heading": "Ready to say hello?",
+      "description": "If you'd like to find out more, or you're ready to get started, I'd love to hear from you. No pressure, no commitment. Just a conversation.",
+      "buttonText": "Get In Touch",
+      "buttonHref": "/contact"
+    }
+  },
+  "faq": {
+    "hero": {
+      "label": "Questions & answers",
+      "heading": "Things you might be wondering",
+      "description": "There's no such thing as a silly question. Here are some things people often ask before getting started."
+    },
+    "items": [
+      {
+        "question": "I've never had therapy before. Is that okay?",
+        "answer": "Absolutely. Most people feel nervous before their first session. That's completely normal. We'll take it at your pace and there's no pressure to talk about anything you're not ready for."
+      },
+      {
+        "question": "What happens in a session?",
+        "answer": "We meet for 50 minutes by Zoom or phone. There's no set agenda, you talk about whatever feels important to you. I'm there to listen, support you, and help you make sense of what you're going through."
+      },
+      {
+        "question": "How many sessions will I need?",
+        "answer": "It depends entirely on you. Some people find a few sessions helpful, others prefer to work together over a longer period. We'll check in regularly so it always feels right for you."
+      },
+      {
+        "question": "Is everything I say confidential?",
+        "answer": "Yes. What you share with me stays between us. The only exception is if I believe there's a serious risk of harm to you or someone else, in which case I'd always try to discuss this with you first. I follow BACP ethical guidelines at all times."
+      },
+      {
+        "question": "What does 'person-centred' mean?",
+        "answer": "It means I believe you are the expert on your own life. I won't tell you what to do or give you homework. Instead, I'll create a space where you can explore your thoughts and feelings at your own pace, without judgement."
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "Sessions are \u00a350 for 50 minutes. I also offer a free 15-minute phone consultation before we start, so you can ask questions and see if it feels right."
+      },
+      {
+        "question": "I'm not sure therapy is for me. Can I just try it?",
+        "answer": "Of course. That's exactly what the free consultation is for. And even after we start, there's no long-term commitment. You're in control."
+      },
+      {
+        "question": "Do you offer face-to-face sessions?",
+        "answer": "I currently offer sessions online (via Zoom) and by telephone. Many clients find this more convenient and comfortable, as you can attend from your own home or any private space."
+      }
+    ],
+    "pricing": {
+      "label": "Simple & transparent",
+      "heading": "Pricing",
+      "consultation": {
+        "price": "Free",
+        "description": "15-minute phone consultation",
+        "details": "A relaxed chat to ask questions and see if we're a good fit. No pressure, no commitment."
+      },
+      "session": {
+        "price": "\u00a350",
+        "description": "per 50-minute session",
+        "badge": "Most common",
+        "details": "Zoom or phone. Short-term or long-term, we'll find what works best for you."
+      }
+    },
+    "logistics": {
+      "label": "Good to know",
+      "heading": "Logistics & practicalities",
+      "items": [
+        {
+          "heading": "Sessions",
+          "description": "Sessions are 50 minutes long and take place weekly at a regular time. I offer sessions via Zoom (video) or telephone, whichever you prefer."
+        },
+        {
+          "heading": "Cancellation policy",
+          "description": "I understand things come up. I ask for at least 24 hours\u2019 notice if you need to cancel or reschedule. Late cancellations or missed sessions will be charged at the full session rate."
+        },
+        {
+          "heading": "Confidentiality",
+          "description": "Everything you share is confidential and kept in line with the BACP Ethical Framework. The only exception is if I believe there's a serious risk of harm, which I'd always try to discuss with you first."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Still have questions?",
+      "description": "That's totally fine. Drop me a message and I'll get back to you within 24\u201348 hours.",
+      "buttonText": "Get In Touch",
+      "buttonHref": "/contact"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Let's talk",
+      "heading": "Get in touch",
+      "description": "Whether you have a question or you're ready to book your free consultation, I'd love to hear from you."
+    },
+    "email": "hcounselling@outlook.com",
+    "emailResponseTime": "I'll get back to you within 24\u201348 hours.",
+    "whatHappensNext": {
+      "heading": "What happens next?",
+      "steps": [
+        "I'll respond to your message within 24\u201348 hours.",
+        "We'll arrange a free 15-minute phone call, just a relaxed chat to see if we're a good fit.",
+        "If it feels right, we'll book your first session at a time that works for you."
+      ]
+    },
+    "bookDirectly": {
+      "heading": "Book directly",
+      "description": "Prefer to pick a time yourself? You can book your free 15-minute consultation directly."
+    }
+  },
+  "footer": {
+    "tagline": "Person-centred counselling online and by telephone. A safe space to talk, at your pace.",
+    "email": "hcounselling@outlook.com",
+    "credentials": [
+      "BACP Accredited Member (MBACP)",
+      "Membership No. 407181"
+    ],
+    "sessionPrice": "Sessions from \u00a350 per 50-minute session",
+    "links": [
+      { "label": "About", "href": "/about" },
+      { "label": "FAQ", "href": "/faq" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Privacy Policy", "href": "/privacy-policy" }
+    ]
+  },
+  "navigation": {
+    "links": [
+      { "label": "About", "href": "/about" },
+      { "label": "How It Works", "href": "/#how-it-works" },
+      { "label": "FAQ", "href": "/faq" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "ctaText": "Book a Free Chat",
+    "ctaHref": "/contact"
+  },
+  "helpTopics": [
+    {
+      "slug": "anxiety-and-stress",
+      "title": "Anxiety & Stress",
+      "metaDescription": "Online counselling for anxiety and stress with a BACP-accredited therapist. A safe, non-judgemental space to understand and manage your anxiety, at your pace.",
+      "heading": "Anxiety & Stress",
+      "intro": "Anxiety can feel like a constant hum in the background of your life, or it can hit you like a wave, out of nowhere. Either way, it\u2019s exhausting. If you\u2019re living with anxiety or stress that feels like too much, you don\u2019t have to keep pushing through it alone.",
+      "sections": [
+        {
+          "heading": "What anxiety can look like",
+          "paragraphs": [
+            "Anxiety shows up differently for everyone. You might feel a tightness in your chest, a racing mind that won\u2019t switch off, or a sense of dread you can\u2019t quite explain. Perhaps you\u2019re avoiding things you used to enjoy, or you find yourself constantly worrying about what might happen next.",
+            "Stress can build slowly, through work, relationships, or just the demands of everyday life, until it starts to feel unmanageable. You might not even realise how much you\u2019ve been carrying until someone asks you how you are and you don\u2019t know what to say."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you\u2019ll have a space where you don\u2019t need to perform or hold it together. You can talk about what\u2019s troubling you, or just sit with the feelings, without any pressure to have the answers.",
+            "I won\u2019t give you a list of techniques to try or tell you to think positively. Instead, we\u2019ll explore what\u2019s driving your anxiety together, at your pace. Many people find that simply being heard, really heard, begins to ease the weight of it."
+          ]
+        }
+      ],
+      "ctaText": "If anxiety is taking up too much space in your life, I\u2019m here to listen.",
+      "relatedSlugs": ["panic-attacks", "social-anxiety", "burnout"],
+      "illustration": "anxiety-attack.svg",
+      "illustrationAlt": "Illustration of a person experiencing anxiety",
+      "statementText": "You don\u2019t have to keep pushing through it alone",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "depression-and-low-mood",
+      "title": "Depression & Low Mood",
+      "metaDescription": "Online therapy for depression and low mood with a BACP-accredited counsellor. A warm, safe space to talk about how you\u2019re feeling, without judgement.",
+      "heading": "Depression & Low Mood",
+      "intro": "When you\u2019re living with depression, even the smallest things can feel like a huge effort. Getting out of bed, replying to a message, getting through the day. It can all feel like wading through treacle. If that sounds familiar, please know that you\u2019re not lazy or broken. You\u2019re struggling, and that\u2019s okay.",
+      "sections": [
+        {
+          "heading": "What depression can feel like",
+          "paragraphs": [
+            "Depression isn\u2019t always what people expect. It\u2019s not always crying or staying in bed. Sometimes it\u2019s feeling numb, disconnected, or just flat. You might go through the motions of your day without really being present. Things that used to bring you joy might feel meaningless.",
+            "You might find yourself withdrawing from the people around you, feeling irritable, or struggling to concentrate. Some people describe it as feeling like there\u2019s a fog between them and the rest of the world."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy gives you a space to talk about what\u2019s really going on, without having to worry about being a burden or bringing anyone else down. You can say the things you\u2019ve been keeping inside, and I\u2019ll be there to listen.",
+            "We won\u2019t rush. There\u2019s no agenda and no expectation that you should be feeling better by a certain point. Sometimes just having someone witness what you\u2019re going through, without trying to fix it, can make a real difference."
+          ]
+        }
+      ],
+      "ctaText": "You don\u2019t have to feel like this forever. I\u2019m here whenever you\u2019re ready to talk.",
+      "relatedSlugs": ["loneliness-and-isolation", "self-esteem-and-identity", "sleep-issues"],
+      "illustration": "sad-woman.svg",
+      "illustrationAlt": "Illustration of a person feeling low",
+      "statementText": "You\u2019re not lazy or broken. You\u2019re struggling, and that\u2019s okay.",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "loss-and-grief",
+      "title": "Loss & Grief",
+      "metaDescription": "Online bereavement counselling and grief therapy with a BACP-accredited therapist. A compassionate space to process loss, at your own pace.",
+      "heading": "Loss & Grief",
+      "intro": "Grief is one of the most painful things we go through. Whether you\u2019ve lost someone close to you, or you\u2019re grieving something less visible like a relationship, a phase of life, or a version of yourself, the pain is real, and it deserves space.",
+      "sections": [
+        {
+          "heading": "There\u2019s no right way to grieve",
+          "paragraphs": [
+            "People often talk about grief as if it follows a neat set of stages, but that\u2019s not how it works for most of us. Grief can be messy, unpredictable, and exhausting. One day you might feel okay; the next, it hits you all over again.",
+            "You might feel angry, guilty, numb, or deeply sad. Sometimes all in the same hour. You might feel pressure from others to move on, or you might be struggling with grief that people around you don\u2019t fully understand."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, there\u2019s no timeline and no pressure to get over anything. You can talk about the person you\u2019ve lost, the feelings that come up, the memories, whatever you need. I\u2019ll be there to sit with you in it.",
+            "Sometimes grief brings up things we didn\u2019t expect. Old wounds, complicated feelings, questions about ourselves. That\u2019s all welcome here. We\u2019ll go at your pace, and I\u2019ll follow your lead."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re carrying grief and need someone to talk to, I\u2019m here.",
+      "relatedSlugs": ["life-transitions", "depression-and-low-mood", "chronic-illness"],
+      "illustration": "isolated-woman-phone.svg",
+      "illustrationAlt": "Illustration of a person sitting alone with their thoughts",
+      "statementText": "The pain is real, and it deserves space",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "relationships",
+      "title": "Relationships",
+      "metaDescription": "Online counselling for relationship difficulties with a BACP-accredited therapist. Explore patterns, boundaries, and communication in a safe, supportive space.",
+      "heading": "Relationships",
+      "intro": "Our relationships shape so much of how we feel about ourselves and the world around us. When things aren\u2019t right, whether that\u2019s with a partner, a family member, a friend, or a colleague, it can affect everything. You don\u2019t need to be in crisis to want to talk about it.",
+      "sections": [
+        {
+          "heading": "When relationships feel difficult",
+          "paragraphs": [
+            "Relationship struggles can take many forms. Maybe you\u2019re caught in the same arguments again and again. Perhaps you feel unseen or unheard by someone important to you. You might be dealing with a breakup, navigating a complicated family dynamic, or wondering why you keep ending up in the same kind of relationship.",
+            "Sometimes the most painful relationship issues are the ones we don\u2019t talk about. The quiet disconnection, the things left unsaid, the feeling that you\u2019re not quite enough."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy gives you a space to look at your relationships honestly. What\u2019s working, what isn\u2019t, and what patterns might be playing out beneath the surface. We can explore how your past experiences have shaped the way you relate to others now.",
+            "I won\u2019t take sides or tell you what to do. My role is to help you understand yourself more deeply, so you can make choices that feel right for you, whether that\u2019s setting boundaries, improving communication, or finding the courage to make a change."
+          ]
+        }
+      ],
+      "ctaText": "If your relationships are weighing on you, let\u2019s talk.",
+      "relatedSlugs": ["family-issues", "people-pleasing", "emotional-abuse"],
+      "illustration": "self-criticism-mirror.svg",
+      "illustrationAlt": "Illustration of a person reflecting on themselves",
+      "statementText": "The quiet disconnection, the things left unsaid",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "self-esteem-and-identity",
+      "title": "Self-Esteem & Identity",
+      "metaDescription": "Online therapy for low self-esteem and identity struggles with a BACP-accredited counsellor. Build a kinder relationship with yourself in a safe, supportive space.",
+      "heading": "Self-Esteem & Identity",
+      "intro": "If you\u2019ve spent a long time feeling like you\u2019re not good enough, not clever enough, not attractive enough, not successful enough, you\u2019ll know how tiring it is to carry that voice around with you. Low self-esteem can colour everything, from the choices you make to the way you treat yourself.",
+      "sections": [
+        {
+          "heading": "Living with low self-esteem",
+          "paragraphs": [
+            "Low self-esteem often starts early. Maybe you grew up in an environment where you weren\u2019t valued, or where love felt conditional. Over time, you might have learned to put yourself last, to avoid taking up space, or to believe that other people\u2019s needs matter more than yours.",
+            "It can show up as people-pleasing, perfectionism, difficulty accepting compliments, or a constant feeling of not being enough. Sometimes it\u2019s at the root of anxiety, depression, or relationship difficulties too."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you\u2019ll be met with genuine warmth and acceptance, just as you are. That might sound simple, but for many people, it\u2019s a powerful experience to be truly seen without judgement.",
+            "Together, we can explore where these beliefs about yourself came from, and gently begin to challenge them. Therapy won\u2019t turn you into a different person, but it can help you build a kinder, more honest relationship with yourself."
+          ]
+        }
+      ],
+      "ctaText": "You deserve to feel good enough. If you\u2019d like to explore that, I\u2019m here.",
+      "relatedSlugs": ["confidence", "people-pleasing", "perfectionism"],
+      "illustration": "overwhelmed-woman.svg",
+      "illustrationAlt": "Illustration of a person feeling overwhelmed",
+      "statementText": "You deserve to feel good enough",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "trauma-and-ptsd",
+      "title": "Trauma & PTSD",
+      "metaDescription": "Online trauma and PTSD counselling with a BACP-accredited therapist. A gentle, safe space to process difficult experiences, at your own pace.",
+      "heading": "Trauma & PTSD",
+      "intro": "Trauma doesn\u2019t always look the way people expect. You don\u2019t need to have been through something dramatic for it to have left a mark. If past experiences are still affecting the way you feel, think, or relate to others, therapy can help you make sense of it, gently and at your own pace.",
+      "sections": [
+        {
+          "heading": "How trauma can affect you",
+          "paragraphs": [
+            "Trauma can show up in many ways. Flashbacks, nightmares, feeling constantly on edge, or a sense of emotional numbness. You might find yourself avoiding certain places, people, or situations. Or you might not connect your current struggles with what happened in the past at all.",
+            "Some people carry trauma for years without fully recognising it. It might surface as anxiety, difficulty trusting others, anger, or a feeling of being disconnected from yourself or the world around you."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Working through trauma takes courage, and it needs to happen at a pace that feels safe for you. I will never push you to talk about anything you\u2019re not ready for. Your boundaries matter, and you\u2019re always in control of what we explore.",
+            "Person-centred therapy offers a space where you can begin to process what happened, in your own way, in your own time. Being truly heard by someone who won\u2019t judge you can be the first step towards healing."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re carrying something painful, you don\u2019t have to carry it alone.",
+      "relatedSlugs": ["anxiety-and-stress", "emotional-abuse", "sleep-issues"],
+      "illustration": "distressed-man.svg",
+      "illustrationAlt": "Illustration of a person processing difficult experiences",
+      "statementText": "You don\u2019t need to have been through something dramatic for it to have left a mark",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "eating-disorders",
+      "title": "Eating Disorders",
+      "metaDescription": "Online counselling for eating disorders with a BACP-accredited therapist. A compassionate, non-judgemental space to explore your relationship with food and your body.",
+      "heading": "Eating Disorders",
+      "intro": "Eating disorders are about so much more than food. They\u2019re often rooted in deeper feelings about control, self-worth, pain, or identity. If you\u2019re struggling with your relationship with food or your body, you deserve support that sees the whole person, not just the behaviour.",
+      "sections": [
+        {
+          "heading": "Understanding eating difficulties",
+          "paragraphs": [
+            "Eating disorders can take many forms. Restricting, bingeing, purging, over-exercising, or a constant, exhausting preoccupation with food, weight, or body image. They often start as a way of coping with something difficult, but over time they can take on a life of their own.",
+            "You might feel ashamed or embarrassed about your eating patterns. You might not even feel like your struggles are serious enough to warrant help. But if food and your body are causing you distress, that\u2019s enough of a reason to reach out."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, we won\u2019t focus on meal plans or weight. Instead, we\u2019ll explore what\u2019s underneath. The feelings, experiences, and beliefs that are driving your relationship with food. I\u2019ll meet you with compassion, not judgement.",
+            "Recovery isn\u2019t a straight line, and I won\u2019t expect you to have it all figured out. What matters is that you have a safe space to talk honestly about what you\u2019re going through, and someone who genuinely cares."
+          ]
+        }
+      ],
+      "ctaText": "If food and your body are causing you distress, I\u2019m here to listen.",
+      "relatedSlugs": ["self-esteem-and-identity", "anxiety-and-stress", "perfectionism"],
+      "illustration": "self-criticism-mirror.svg",
+      "illustrationAlt": "Illustration of a person reflecting on their relationship with themselves",
+      "statementText": "It\u2019s about so much more than food",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "addiction",
+      "title": "Addiction",
+      "metaDescription": "Online counselling for addiction with a BACP-accredited therapist. A non-judgemental, supportive space to explore what\u2019s driving addictive patterns.",
+      "heading": "Addiction",
+      "intro": "Addiction is rarely about the substance or behaviour itself. More often, it\u2019s about what that thing is helping you avoid, numb, or cope with. If you\u2019re caught in a cycle that feels impossible to break, therapy can offer a space to understand what\u2019s really going on, without shame or judgement.",
+      "sections": [
+        {
+          "heading": "When habits become harmful",
+          "paragraphs": [
+            "Addiction can involve alcohol, drugs, gambling, sex, pornography, food, or many other behaviours. What they often have in common is that they started as a way of coping, a way of managing pain, stress, loneliness, or difficult feelings. Over time, the coping mechanism itself becomes the problem.",
+            "You might feel trapped, ashamed, or frustrated with yourself. You might have tried to stop many times. Addiction can be incredibly isolating, especially when you feel like you can\u2019t talk about it openly."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "I won\u2019t lecture you or tell you what you should be doing differently. In our sessions, we\u2019ll look at the feelings and experiences that sit beneath the addiction, the things you might be trying to avoid or soothe.",
+            "By understanding the root of the pattern, rather than just the behaviour on the surface, many people find they\u2019re able to relate to themselves and their struggles with more compassion. And from that place, real change becomes possible."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re stuck in a cycle, let\u2019s talk about what\u2019s underneath it.",
+      "relatedSlugs": ["depression-and-low-mood", "trauma-and-ptsd", "loneliness-and-isolation"],
+      "illustration": "stress-under-stairs.svg",
+      "illustrationAlt": "Illustration of a person feeling trapped",
+      "statementText": "You don\u2019t have to understand it all to start talking about it",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "work-related-issues",
+      "title": "Work-Related Issues",
+      "metaDescription": "Online counselling for work-related stress, burnout, and workplace difficulties. A BACP-accredited therapist offering a safe space to talk about work struggles.",
+      "heading": "Work-Related Issues",
+      "intro": "Work takes up a huge part of our lives, so when it\u2019s not going well, it can affect everything. Your confidence, your relationships, your sleep, your sense of who you are. Whether you\u2019re dealing with a toxic work environment, struggling with pressure, or questioning what you\u2019re doing with your career, those feelings are valid.",
+      "sections": [
+        {
+          "heading": "When work starts to take its toll",
+          "paragraphs": [
+            "Work-related difficulties might look like dreading Monday mornings, feeling undervalued, dealing with bullying or conflict, or simply feeling overwhelmed by the demands placed on you. Perhaps you\u2019re struggling with imposter syndrome, dealing with a difficult boss, or navigating a redundancy.",
+            "Sometimes work problems are about the job itself. But often they\u2019re also connected to deeper patterns, around how we handle pressure, how we set boundaries, or how much of our identity is tied up in what we do for a living."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy gives you a space to step back and look at what\u2019s really going on, without the pressure to just get on with it. You can talk honestly about how work is affecting you, and we can explore what\u2019s underneath the stress.",
+            "Whether you need to set better boundaries, navigate a difficult situation, or figure out what you actually want, I\u2019ll be there to listen and support you, without pushing you towards any particular outcome."
+          ]
+        }
+      ],
+      "ctaText": "If work is getting on top of you, you don\u2019t have to manage it alone.",
+      "relatedSlugs": ["burnout", "anxiety-and-stress", "confidence"],
+      "illustration": "work-stress.svg",
+      "illustrationAlt": "Illustration of a person dealing with work pressure",
+      "statementText": "Those feelings are valid, and you deserve support",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "sexuality-and-identity",
+      "title": "Sexuality & Identity",
+      "metaDescription": "Online counselling for sexuality and identity with a BACP-accredited therapist. A safe, affirming space to explore who you are, without judgement.",
+      "heading": "Sexuality & Identity",
+      "intro": "Exploring your sexuality or sense of identity can bring up a complex mix of feelings. Excitement, confusion, fear, relief, grief, and everything in between. Whatever you\u2019re experiencing, you deserve a space where you can be fully yourself, without having to explain or justify who you are.",
+      "sections": [
+        {
+          "heading": "The challenges you might be facing",
+          "paragraphs": [
+            "You might be questioning your sexuality or gender identity. Perhaps you\u2019ve always known who you are but are struggling with how others respond to it. Maybe you\u2019re dealing with the impact of hiding a part of yourself, or navigating coming out to the people in your life.",
+            "These experiences can be lonely, especially if you don\u2019t feel you have anyone safe to talk to. Internalised shame, family expectations, cultural pressures, or past experiences of discrimination can all weigh heavily."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "My therapy space is affirming and non-judgemental. You won\u2019t need to educate me or justify yourself. I\u2019m here to listen, to understand, and to support you as you explore whatever is coming up for you.",
+            "Whether you\u2019re working through feelings of confusion, processing past experiences, or simply needing a space where you can speak freely, I\u2019ll meet you with warmth and genuine acceptance."
+          ]
+        }
+      ],
+      "ctaText": "If you need a safe space to explore who you are, I\u2019m here.",
+      "relatedSlugs": ["self-esteem-and-identity", "relationships", "loneliness-and-isolation"],
+      "illustration": "problem-solving.svg",
+      "illustrationAlt": "Illustration of a person exploring their path forward",
+      "statementText": "You deserve a space where you can be fully yourself",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "phobias",
+      "title": "Phobias",
+      "metaDescription": "Online counselling for phobias with a BACP-accredited therapist. A gentle, supportive space to understand and work through your fears, at your own pace.",
+      "heading": "Phobias",
+      "intro": "A phobia can feel embarrassing to talk about, especially when other people don\u2019t seem to understand why it affects you so much. But phobias are real, they\u2019re powerful, and they can genuinely limit your life. You don\u2019t need to feel silly for wanting help with this.",
+      "sections": [
+        {
+          "heading": "Living with a phobia",
+          "paragraphs": [
+            "Phobias go far beyond ordinary dislike or nervousness. They can trigger intense physical reactions, including a racing heart, difficulty breathing, nausea, or a feeling of sheer panic. Over time, you might find yourself going to great lengths to avoid the thing you\u2019re afraid of, which can shrink your world in ways other people don\u2019t always see.",
+            "You might avoid certain places, situations, or activities. You might feel embarrassed about the level of fear you experience, or frustrated that you can\u2019t just get over it."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, we can gently explore what\u2019s behind your phobia. When it started, what it means to you, and how it connects to your wider experience. I won\u2019t push you to confront anything you\u2019re not ready for.",
+            "Person-centred therapy works by creating a space where you feel safe enough to explore difficult feelings. Over time, understanding yourself more deeply can shift the hold that fear has over you."
+          ]
+        }
+      ],
+      "ctaText": "If a phobia is holding you back, let\u2019s talk about it. Gently, at your pace.",
+      "relatedSlugs": ["anxiety-and-stress", "panic-attacks", "ocd"],
+      "illustration": "anxiety-attack.svg",
+      "illustrationAlt": "Illustration of a person experiencing intense fear",
+      "statementText": "You don\u2019t need to feel silly for wanting help with this",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "anger-management",
+      "title": "Anger Management",
+      "metaDescription": "Online counselling for anger management with a BACP-accredited therapist. Explore what\u2019s behind your anger in a safe, non-judgemental space.",
+      "heading": "Anger Management",
+      "intro": "Anger often gets a bad reputation, but it\u2019s a perfectly normal emotion. The problem isn\u2019t the anger itself. It\u2019s what happens when it feels out of control, or when it starts damaging your relationships, your work, or the way you feel about yourself.",
+      "sections": [
+        {
+          "heading": "When anger becomes a problem",
+          "paragraphs": [
+            "You might find yourself snapping at the people you love, feeling a constant irritability simmering beneath the surface, or having outbursts that leave you feeling ashamed afterwards. Perhaps you\u2019ve been told you have a temper, or maybe your anger turns inward, becoming self-criticism or self-destructive behaviour.",
+            "Anger is often a surface emotion. Underneath it, there might be hurt, frustration, fear, or a feeling of powerlessness. When we only deal with the anger on the surface, we miss what\u2019s really driving it."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "I won\u2019t judge you for your anger. In our sessions, we can explore what\u2019s underneath it. The feelings, experiences, and triggers that set it off. Understanding where your anger comes from is the first step towards relating to it differently.",
+            "Therapy isn\u2019t about suppressing your emotions. It\u2019s about understanding them well enough that you can respond to life\u2019s frustrations in a way that feels more in your control."
+          ]
+        }
+      ],
+      "ctaText": "If anger is affecting your life, let\u2019s explore what\u2019s behind it together.",
+      "relatedSlugs": ["relationships", "work-related-issues", "trauma-and-ptsd"],
+      "illustration": "stress-attack.svg",
+      "illustrationAlt": "Illustration of a person struggling with intense emotions",
+      "statementText": "The problem isn\u2019t the anger itself",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "ocd",
+      "title": "OCD",
+      "metaDescription": "Online counselling for OCD with a BACP-accredited therapist. A safe, understanding space to talk about obsessive thoughts and compulsive behaviours.",
+      "heading": "OCD",
+      "intro": "OCD is so much more than wanting things to be tidy. It can be deeply distressing, with intrusive thoughts that won\u2019t leave you alone, rituals and compulsions that take over your day, and a constant, exhausting cycle of anxiety. If this is your experience, you deserve support that takes it seriously.",
+      "sections": [
+        {
+          "heading": "What OCD can look like",
+          "paragraphs": [
+            "OCD involves unwanted, intrusive thoughts (obsessions) that cause intense anxiety, followed by repetitive behaviours or mental rituals (compulsions) that you feel driven to perform to relieve that anxiety. The relief is always temporary, and the cycle starts again.",
+            "It might involve checking, counting, cleaning, seeking reassurance, or performing rituals in a specific way. But OCD can also be invisible to others, involving intrusive thoughts about harm, contamination, or other distressing themes that you carry in silence."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Talking about OCD can feel frightening, especially if you\u2019re ashamed of your intrusive thoughts. In our sessions, you can share whatever you need to, without any fear of being judged. I understand that intrusive thoughts are not a reflection of who you are.",
+            "We\u2019ll work together to understand what\u2019s driving the anxiety, and to explore the feelings that sit beneath the cycle. Having a safe, compassionate space to talk can make a real difference."
+          ]
+        }
+      ],
+      "ctaText": "If OCD is running your life, you don\u2019t have to manage it alone.",
+      "relatedSlugs": ["anxiety-and-stress", "phobias", "panic-attacks"],
+      "illustration": "anxious-man-tangled-thoughts.svg",
+      "illustrationAlt": "Illustration of a person caught in a cycle of anxious thoughts",
+      "statementText": "You deserve support that takes it seriously",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "panic-attacks",
+      "title": "Panic Attacks",
+      "metaDescription": "Online counselling for panic attacks with a BACP-accredited therapist. A calm, supportive space to understand your panic and feel more in control.",
+      "heading": "Panic Attacks",
+      "intro": "If you\u2019ve ever had a panic attack, you\u2019ll know how terrifying it can be. Your heart races, you can\u2019t breathe, you might feel dizzy or sick, and the fear that it will happen again can start to dominate your life. You\u2019re not overreacting, and you\u2019re certainly not alone.",
+      "sections": [
+        {
+          "heading": "Living with panic",
+          "paragraphs": [
+            "Panic attacks can come out of nowhere, or they might be triggered by specific situations. Either way, the physical sensations are intense and frightening. Many people describe feeling like they\u2019re having a heart attack or losing control.",
+            "The fear of the next attack can be almost as debilitating as the attack itself. You might start avoiding places, situations, or activities in case it happens again. Over time, your world can become smaller and smaller."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, we can explore what\u2019s behind your panic. The anxiety, stress, or unprocessed feelings that might be driving it. Understanding why your body and mind respond the way they do can itself be deeply reassuring.",
+            "I\u2019ll provide a calm, steady presence. There\u2019s no pressure to do anything other than talk, about whatever feels important. Many people find that as they begin to understand and process what\u2019s going on for them, the panic starts to lose its grip."
+          ]
+        }
+      ],
+      "ctaText": "If panic is controlling your life, let\u2019s talk about it in a safe space.",
+      "relatedSlugs": ["anxiety-and-stress", "social-anxiety", "phobias"],
+      "illustration": "stress-attack.svg",
+      "illustrationAlt": "Illustration of a person experiencing overwhelming sensations",
+      "statementText": "You\u2019re not overreacting, and you\u2019re certainly not alone",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "social-anxiety",
+      "title": "Social Anxiety",
+      "metaDescription": "Online therapy for social anxiety with a BACP-accredited counsellor. A safe space to explore social fears and build confidence, at your own pace.",
+      "heading": "Social Anxiety",
+      "intro": "Social anxiety is more than just being shy. It can make everyday interactions feel overwhelming, from meeting new people to speaking in groups or even answering the phone. If social situations leave you feeling drained, panicked, or deeply self-conscious, you\u2019re not being dramatic. It\u2019s real, and it\u2019s hard.",
+      "sections": [
+        {
+          "heading": "How social anxiety can affect you",
+          "paragraphs": [
+            "Social anxiety might mean you spend hours replaying conversations in your head, worrying about what people think of you, or avoiding social situations altogether. It can affect your work, your friendships, and your sense of connection with others.",
+            "You might feel like everyone else finds social interaction easy, and that there\u2019s something wrong with you. That\u2019s not true, but when you\u2019re living with it, it can feel very isolating."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Online therapy can be especially helpful for social anxiety, because you can talk from a space where you feel comfortable and safe. There\u2019s no waiting room, no small talk with strangers. Just a private conversation between you and me.",
+            "We can explore where your social anxiety comes from, what it\u2019s trying to protect you from, and how it affects your daily life. I\u2019ll meet you with patience and understanding, and we\u2019ll work at whatever pace feels right for you."
+          ]
+        }
+      ],
+      "ctaText": "If social situations feel overwhelming, you don\u2019t have to face it alone.",
+      "relatedSlugs": ["anxiety-and-stress", "panic-attacks", "confidence"],
+      "illustration": "isolated-woman-phone.svg",
+      "illustrationAlt": "Illustration of a person feeling isolated and withdrawn",
+      "statementText": "It\u2019s real, and it\u2019s hard",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "family-issues",
+      "title": "Family Issues",
+      "metaDescription": "Online counselling for family issues with a BACP-accredited therapist. A confidential space to explore difficult family dynamics and find your way forward.",
+      "heading": "Family Issues",
+      "intro": "Family relationships are some of the most powerful in our lives, and some of the most complicated. Whether you\u2019re dealing with conflict, estrangement, difficult dynamics, or the lasting impact of your upbringing, these things deserve space to be explored and understood.",
+      "sections": [
+        {
+          "heading": "When family is complicated",
+          "paragraphs": [
+            "Family issues might involve ongoing conflict with parents, siblings, or in-laws. You might be navigating a difficult divorce, dealing with a controlling family member, or processing childhood experiences that still affect you now.",
+            "Sometimes the hardest part is that the people who are supposed to love us the most are the ones who\u2019ve caused us the most pain. And it can feel disloyal or wrong to talk about it, even when you need to."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you can talk about your family without worrying about being judged or told what to do. Everything you share is confidential, and there\u2019s no expectation that you should feel a certain way about the people in your life.",
+            "We can explore how your family relationships have shaped you, what patterns might be repeating, and what boundaries you might need. Understanding these dynamics can be the first step towards feeling more at peace, with your family and with yourself."
+          ]
+        }
+      ],
+      "ctaText": "If family is weighing on you, I\u2019m here to listen.",
+      "relatedSlugs": ["relationships", "emotional-abuse", "life-transitions"],
+      "illustration": "overwhelmed-woman.svg",
+      "illustrationAlt": "Illustration of a person carrying a heavy emotional weight",
+      "statementText": "These things deserve space to be explored and understood",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "loneliness-and-isolation",
+      "title": "Loneliness & Isolation",
+      "metaDescription": "Online counselling for loneliness and isolation with a BACP-accredited therapist. A warm, human connection when you need it most.",
+      "heading": "Loneliness & Isolation",
+      "intro": "Loneliness is one of the most painful feelings there is, and it can be hard to talk about, because admitting you\u2019re lonely can feel like admitting something is wrong with you. It isn\u2019t. Loneliness is a human experience, and it\u2019s far more common than people let on.",
+      "sections": [
+        {
+          "heading": "Understanding loneliness",
+          "paragraphs": [
+            "You can feel lonely in a crowded room. Loneliness isn\u2019t always about being physically alone. It\u2019s about feeling disconnected, unseen, or like nobody truly understands you. It can come after a big life change, or it can be a feeling you\u2019ve carried for as long as you can remember.",
+            "Prolonged loneliness can affect your mental and physical health. It can lead to depression, anxiety, low self-esteem, and a sense of hopelessness. And the longer it goes on, the harder it can feel to reach out."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Simply having someone who is genuinely there for you, who listens without judgement and cares about how you\u2019re doing, can be a powerful antidote to loneliness. Our sessions offer exactly that: a real, human connection.",
+            "We can also explore what\u2019s driving your loneliness, whether it\u2019s difficulty trusting others, past experiences of rejection, social anxiety, or something else entirely. Understanding the roots of it can help you find your way towards the connections you\u2019re looking for."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re feeling alone, reaching out is a brave first step. I\u2019m here.",
+      "relatedSlugs": ["depression-and-low-mood", "social-anxiety", "life-transitions"],
+      "illustration": "isolated-woman-phone.svg",
+      "illustrationAlt": "Illustration of a person feeling disconnected and alone",
+      "statementText": "Loneliness is a human experience, far more common than people let on",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "life-transitions",
+      "title": "Life Transitions",
+      "metaDescription": "Online counselling for life transitions and big changes with a BACP-accredited therapist. Support through uncertainty, change, and new beginnings.",
+      "heading": "Life Transitions",
+      "intro": "Big changes, even positive ones, can be unsettling. Whether you\u2019re going through a breakup, starting a new job, becoming a parent, retiring, or simply feeling like you\u2019ve lost your sense of direction, transitions can stir up feelings you didn\u2019t expect. You don\u2019t need to be in crisis to benefit from having someone to talk to.",
+      "sections": [
+        {
+          "heading": "When change feels overwhelming",
+          "paragraphs": [
+            "Life transitions can leave you feeling unmoored. You might not recognise yourself, or the life you\u2019re living might feel very different from what you planned. Change often brings grief for the life you\u2019re leaving behind, even when the change is something you chose.",
+            "You might feel anxious about the future, nostalgic for the past, or simply stuck in a space between where you were and where you\u2019re going. These feelings are all completely normal."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy can provide a steady, consistent space during a time when everything else feels uncertain. In our sessions, you can process what\u2019s changing, explore how you feel about it, and figure out what matters to you going forward.",
+            "I\u2019ll be there to listen, without rushing you towards a decision or telling you what you should do. Sometimes, just having a space to think out loud can help things feel clearer."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re navigating a big change, I\u2019m here to walk alongside you.",
+      "relatedSlugs": ["loss-and-grief", "anxiety-and-stress", "loneliness-and-isolation"],
+      "illustration": "problem-solving.svg",
+      "illustrationAlt": "Illustration of a person navigating a new direction",
+      "statementText": "You don\u2019t need to be in crisis to benefit from having someone to talk to",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "burnout",
+      "title": "Burnout",
+      "metaDescription": "Online counselling for burnout with a BACP-accredited therapist. A supportive space to recover from exhaustion and reconnect with yourself.",
+      "heading": "Burnout",
+      "intro": "Burnout isn\u2019t just being tired. It\u2019s a deep, bone-level exhaustion, physical, emotional, and mental, that doesn\u2019t go away with a good night\u2019s sleep or a week off. If you\u2019re running on empty and can\u2019t remember the last time you felt like yourself, it might be time to talk to someone.",
+      "sections": [
+        {
+          "heading": "Recognising burnout",
+          "paragraphs": [
+            "Burnout often creeps up slowly. You might have started out passionate and motivated, but gradually the demands became too much. Now you feel drained, cynical, detached, or like nothing you do makes a difference. Even the things you used to enjoy feel like a chore.",
+            "It\u2019s not just about work, either. Burnout can come from caring responsibilities, parenting, studying, or just trying to hold everything together for too long without enough support."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you don\u2019t have to perform or achieve anything. You can simply be, and that in itself can be a relief. We\u2019ll explore what\u2019s led you to this point, what you might need, and what\u2019s getting in the way of rest and recovery.",
+            "Burnout often involves deeper patterns. Difficulty saying no, a need to prove yourself, or a belief that rest is lazy. Understanding these patterns can help you find a more sustainable way of living."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re burnt out, you don\u2019t have to keep going alone. I\u2019m here.",
+      "relatedSlugs": ["work-related-issues", "anxiety-and-stress", "perfectionism"],
+      "illustration": "exhausted-man.svg",
+      "illustrationAlt": "Illustration of a person feeling deeply exhausted",
+      "statementText": "You\u2019re running on empty, and that\u2019s not sustainable",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "chronic-illness",
+      "title": "Chronic Illness",
+      "metaDescription": "Online counselling for chronic illness with a BACP-accredited therapist. Emotional support for living with long-term health conditions.",
+      "heading": "Chronic Illness",
+      "intro": "Living with a chronic illness affects so much more than your body. It can change your relationships, your sense of identity, your independence, and your mental health. If you\u2019re dealing with the emotional side of a long-term health condition, you deserve support that sees the full picture, not just the diagnosis.",
+      "sections": [
+        {
+          "heading": "The emotional toll of chronic illness",
+          "paragraphs": [
+            "Chronic illness can bring grief for the life you had before, for the things you can no longer do, for the future you imagined. You might feel frustrated, angry, isolated, or misunderstood. Other people might not see how much you\u2019re dealing with, especially if your condition is invisible.",
+            "The relationship between physical and emotional health is deeply connected. Pain, fatigue, and uncertainty can take a heavy toll on your mental wellbeing, and that\u2019s not a sign of weakness. It\u2019s a natural response to a very difficult situation."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy offers a space to talk about what chronic illness really feels like. The things you might not say to your family, your doctor, or your friends. You can be honest about how hard it is without worrying about being a burden.",
+            "We can explore how your condition is affecting your life, your identity, and your relationships. I\u2019ll listen with compassion and without judgement, and we\u2019ll go at whatever pace your body and mind need."
+          ]
+        }
+      ],
+      "ctaText": "If chronic illness is affecting your wellbeing, I\u2019m here to support you.",
+      "relatedSlugs": ["depression-and-low-mood", "loss-and-grief", "sleep-issues"],
+      "illustration": "tired-woman-sleeping.svg",
+      "illustrationAlt": "Illustration of a person resting from exhaustion",
+      "statementText": "You deserve support that sees the full picture",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "perfectionism",
+      "title": "Perfectionism",
+      "metaDescription": "Online counselling for perfectionism with a BACP-accredited therapist. Explore the patterns behind perfectionism and find a kinder way to live.",
+      "heading": "Perfectionism",
+      "intro": "Perfectionism might look like high standards from the outside, but from the inside it often feels like never being good enough. If you\u2019re constantly striving, criticising yourself, or struggling to rest because there\u2019s always more you could be doing, that\u2019s exhausting, and you don\u2019t have to live like that.",
+      "sections": [
+        {
+          "heading": "The hidden cost of perfectionism",
+          "paragraphs": [
+            "Perfectionism isn\u2019t just about being thorough or detail-oriented. It\u2019s often driven by a deep fear of failure, of judgement, of not being worthy of love or respect unless you\u2019re performing at your best. It can lead to procrastination, burnout, anxiety, and a relentless inner critic that never lets you rest.",
+            "You might find it impossible to celebrate your achievements because you\u2019re already focused on the next thing. Or you might avoid doing things altogether, because if you can\u2019t do them perfectly, what\u2019s the point?"
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you don\u2019t need to get it right. There\u2019s no performance here, just a space where you can be honest about how tiring it is to hold yourself to impossible standards.",
+            "We can explore where your perfectionism comes from, what it\u2019s trying to protect you from, and what it might be costing you. Over time, many people find they can loosen the grip of perfectionism without losing the things that matter to them."
+          ]
+        }
+      ],
+      "ctaText": "If perfectionism is running you into the ground, let\u2019s explore it together.",
+      "relatedSlugs": ["burnout", "self-esteem-and-identity", "people-pleasing"],
+      "illustration": "multitasking-woman.svg",
+      "illustrationAlt": "Illustration of a person juggling impossible demands",
+      "statementText": "You don\u2019t have to live like that",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "people-pleasing",
+      "title": "People Pleasing",
+      "metaDescription": "Online counselling for people-pleasing with a BACP-accredited therapist. Learn to set boundaries and honour your own needs in a safe, supportive space.",
+      "heading": "People Pleasing",
+      "intro": "If you spend most of your energy trying to make other people happy, saying yes when you mean no, avoiding conflict at all costs, putting everyone else\u2019s needs before your own, you might have started to lose sight of what you actually want. People-pleasing can feel like kindness, but it often comes at the cost of your own wellbeing.",
+      "sections": [
+        {
+          "heading": "When looking after others means losing yourself",
+          "paragraphs": [
+            "People-pleasing often starts in childhood. Perhaps you learned that keeping the peace was the safest option, or that love was conditional on being helpful, agreeable, or easy. Over time, those patterns become so automatic that you might not even recognise them.",
+            "You might struggle to say no, feel guilty for having needs, or find that your relationships feel one-sided. Underneath the pleasing, there\u2019s often resentment, exhaustion, or a quiet sadness about not being truly known."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Therapy offers a rare thing for people-pleasers: a relationship where you don\u2019t need to manage someone else\u2019s feelings. In our sessions, your needs come first. You can be honest, even about the difficult stuff, without worrying about letting me down.",
+            "We can explore where these patterns come from, what they\u2019re costing you, and what it might look like to start honouring your own feelings and boundaries. It\u2019s not about becoming selfish. It\u2019s about finding a balance that actually works for you."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019ve been putting everyone else first, maybe it\u2019s your turn. I\u2019m here.",
+      "relatedSlugs": ["self-esteem-and-identity", "perfectionism", "relationships"],
+      "illustration": "multitasking-woman.svg",
+      "illustrationAlt": "Illustration of a person stretching themselves thin for others",
+      "statementText": "Maybe it\u2019s your turn",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "confidence",
+      "title": "Confidence",
+      "metaDescription": "Online counselling for low confidence with a BACP-accredited therapist. Build belief in yourself in a safe, encouraging, non-judgemental space.",
+      "heading": "Confidence",
+      "intro": "A lack of confidence can quietly shape your whole life. It can hold you back from going for that job, speaking up in a meeting, ending a relationship that isn\u2019t working, or simply feeling comfortable in your own skin. If you\u2019ve been playing small, you don\u2019t have to keep doing that.",
+      "sections": [
+        {
+          "heading": "How low confidence shows up",
+          "paragraphs": [
+            "Low confidence often goes hand in hand with a harsh inner voice, one that tells you you\u2019re not good enough, not capable enough, or not deserving of good things. You might second-guess every decision, compare yourself constantly to others, or avoid challenges because you\u2019re convinced you\u2019ll fail.",
+            "It can affect every area of your life. Work, relationships, social situations, even how you spend your free time. And because it often develops gradually, you might not realise how much it\u2019s holding you back."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Building confidence isn\u2019t about becoming loud or bold. It\u2019s about trusting yourself, your feelings, your instincts, your right to take up space. Therapy can help you get there by giving you a space where you\u2019re genuinely valued, just as you are.",
+            "We can explore where your self-doubt comes from, challenge the beliefs that keep you playing small, and help you reconnect with your own strengths. It\u2019s a gentle process, and we\u2019ll go at your pace."
+          ]
+        }
+      ],
+      "ctaText": "If self-doubt is holding you back, I\u2019d love to help you find your voice.",
+      "relatedSlugs": ["self-esteem-and-identity", "social-anxiety", "work-related-issues"],
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person finding inner peace",
+      "statementText": "You don\u2019t have to keep playing small",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "emotional-abuse",
+      "title": "Emotional Abuse",
+      "metaDescription": "Online counselling for emotional abuse with a BACP-accredited therapist. A safe, confidential space to heal from controlling, manipulative, or abusive relationships.",
+      "heading": "Emotional Abuse",
+      "intro": "Emotional abuse can be hard to recognise, especially when you\u2019re in the middle of it. It doesn\u2019t leave visible marks, but it can deeply damage the way you see yourself, your relationships, and the world around you. If someone has made you feel small, worthless, or afraid, what happened to you matters, and you deserve support.",
+      "sections": [
+        {
+          "heading": "Recognising emotional abuse",
+          "paragraphs": [
+            "Emotional abuse can include manipulation, control, constant criticism, gaslighting, isolation, intimidation, or withholding love and affection. It can happen in romantic relationships, families, friendships, or workplaces.",
+            "Because it\u2019s not physical, it can be easy to doubt your own experience, to wonder if you\u2019re overreacting or if it\u2019s really that bad. If someone consistently makes you feel afraid, confused about reality, or like you\u2019re walking on eggshells, that\u2019s not okay."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "In our sessions, you\u2019ll be believed. You won\u2019t need to justify your experience or prove that it was bad enough. I\u2019ll offer a space where you can talk about what happened, or what\u2019s still happening, at your own pace, with complete confidentiality.",
+            "Therapy can help you understand the impact of emotional abuse, rebuild your sense of self, and begin to trust your own feelings again. Healing is possible, and you don\u2019t have to do it alone."
+          ]
+        }
+      ],
+      "ctaText": "If someone has made you feel small, you deserve to be heard. I\u2019m here.",
+      "relatedSlugs": ["trauma-and-ptsd", "relationships", "self-esteem-and-identity"],
+      "illustration": "distressed-man.svg",
+      "illustrationAlt": "Illustration of a person carrying emotional pain",
+      "statementText": "What happened to you matters",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "postnatal-depression",
+      "title": "Postnatal Depression",
+      "metaDescription": "Online counselling for postnatal depression with a BACP-accredited therapist. A compassionate, non-judgemental space for new parents who are struggling.",
+      "heading": "Postnatal Depression",
+      "intro": "Becoming a parent is supposed to be one of the happiest times of your life, so when it doesn\u2019t feel that way, it can be incredibly confusing and lonely. If you\u2019re struggling with your mental health after having a baby, please know that this is more common than you think, it\u2019s not your fault, and it doesn\u2019t make you a bad parent.",
+      "sections": [
+        {
+          "heading": "What postnatal depression can look like",
+          "paragraphs": [
+            "Postnatal depression goes beyond the \u2018baby blues.\u2019 It can involve persistent low mood, overwhelming anxiety, difficulty bonding with your baby, feeling like you\u2019re not good enough, irritability, exhaustion that goes beyond normal tiredness, or frightening intrusive thoughts.",
+            "You might feel guilty for not enjoying parenthood the way you expected to. You might be putting on a brave face while falling apart inside. These feelings don\u2019t mean there\u2019s something wrong with you. They mean you need support."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Online therapy means you can access support from home, which can make all the difference when you have a baby. In our sessions, you can talk honestly about how you\u2019re feeling, without fear of judgement or anyone questioning your ability as a parent.",
+            "We\u2019ll explore what you\u2019re going through together, at your pace. Whether you\u2019re dealing with difficult feelings, struggling with the transition to parenthood, or just need someone to listen, I\u2019m here."
+          ]
+        }
+      ],
+      "ctaText": "If parenthood isn\u2019t feeling the way you expected, you\u2019re not alone. Let\u2019s talk.",
+      "relatedSlugs": ["depression-and-low-mood", "anxiety-and-stress", "life-transitions"],
+      "illustration": "tired-woman-sleeping.svg",
+      "illustrationAlt": "Illustration of a new parent feeling exhausted",
+      "statementText": "It\u2019s not your fault, and it doesn\u2019t make you a bad parent",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "sleep-issues",
+      "title": "Sleep Issues",
+      "metaDescription": "Online counselling for sleep problems and insomnia with a BACP-accredited therapist. Explore the emotional roots of sleep difficulties in a calm, supportive space.",
+      "heading": "Sleep Issues",
+      "intro": "When you can\u2019t sleep, everything else gets harder. Your mood, your patience, your ability to cope with the day. It all suffers. And the more you worry about not sleeping, the harder it becomes. If sleep has become a source of anxiety rather than rest, talking to someone might help more than you think.",
+      "sections": [
+        {
+          "heading": "When sleep becomes a struggle",
+          "paragraphs": [
+            "Sleep difficulties can take many forms. Difficulty falling asleep, waking up in the middle of the night, waking too early, or sleeping but never feeling rested. Your mind might race as soon as your head hits the pillow, or you might wake in the small hours with anxiety or dread.",
+            "Poor sleep is often closely linked to what\u2019s going on in our emotional lives. Stress, anxiety, grief, unresolved feelings, or major life changes can all disrupt sleep, creating a cycle that\u2019s hard to break."
+          ]
+        },
+        {
+          "heading": "How therapy can help",
+          "paragraphs": [
+            "Rather than focusing on sleep hygiene tips, therapy looks at what\u2019s underneath your sleep difficulties. In our sessions, we can explore the thoughts, feelings, and worries that are keeping you awake, and give them the space they need.",
+            "Many people find that when they start processing the things that are troubling them during the day, their nights begin to improve too. It\u2019s not a quick fix, but it\u2019s a meaningful one."
+          ]
+        }
+      ],
+      "ctaText": "If sleepless nights are taking their toll, I\u2019m here to help.",
+      "relatedSlugs": ["anxiety-and-stress", "depression-and-low-mood", "burnout"],
+      "illustration": "tired-woman-sleeping.svg",
+      "illustrationAlt": "Illustration of a person struggling with sleep",
+      "statementText": "Talking to someone might help more than you think",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    }
+  ],
+  "cityPages": [
+    {
+      "slug": "london",
+      "city": "London",
+      "title": "Online Therapy in London",
+      "metaDescription": "Online therapy for people living in London. BACP-accredited counselling from the comfort of your own space. No commute, no waiting rooms.",
+      "heading": "Online Therapy in London",
+      "intro": "London life moves fast. The pressure of long commutes, high living costs, and the constant noise of the city can take a real toll on your mental health. If you\u2019re living in London and looking for therapy that fits around your life, online sessions might be exactly what you need.",
+      "sections": [
+        {
+          "heading": "The pressures of living in London",
+          "paragraphs": [
+            "London can be an exciting place to live, but it can also be incredibly demanding. The cost of living, competitive job market, and fast pace of life leave many people feeling anxious, burnt out, or disconnected. It\u2019s easy to feel lonely in a city of millions.",
+            "Whether you\u2019re a young professional navigating career pressure, a student adjusting to city life, or simply someone who feels like they\u2019re running on empty, your feelings are valid, and you deserve support."
+          ]
+        },
+        {
+          "heading": "Therapy that works around your life",
+          "paragraphs": [
+            "Online therapy means you don\u2019t need to add another commute to your day. You can have your session from home, from your office on a lunch break, or wherever you feel comfortable and private. It\u2019s the same quality of therapy, just without the travel.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer 50-minute sessions by Zoom or phone, with a free 15-minute consultation to start. There\u2019s no pressure and no commitment, just a safe space to talk."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in London and looking for someone to talk to, I\u2019m here.",
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace",
+      "statementText": "It\u2019s easy to feel lonely in a city of millions",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "manchester",
+      "city": "Manchester",
+      "title": "Online Therapy in Manchester",
+      "metaDescription": "Online therapy for people in Manchester. BACP-accredited counselling you can access from home. Flexible, confidential, and at your pace.",
+      "heading": "Online Therapy in Manchester",
+      "intro": "Manchester is a vibrant, fast-growing city, but with that growth comes pressure. Whether you\u2019re dealing with work stress, relationship difficulties, or simply feeling overwhelmed by the pace of life, online therapy gives you a space to pause and talk things through.",
+      "sections": [
+        {
+          "heading": "Life in Manchester",
+          "paragraphs": [
+            "Manchester\u2019s thriving creative and professional scenes bring energy and opportunity, but also real pressure to keep up. The cost of living is rising, the working culture can be intense, and it\u2019s easy to feel like everyone else has it together when you don\u2019t.",
+            "If you\u2019re a young professional, a student at one of Manchester\u2019s universities, or someone navigating a big life change, it\u2019s okay to need support. That\u2019s not weakness; it\u2019s self-awareness."
+          ]
+        },
+        {
+          "heading": "Therapy from wherever you are",
+          "paragraphs": [
+            "With online therapy, you don\u2019t need to travel across the city to see a therapist. You can have your session from the comfort of your own home, or wherever feels private and safe. All you need is a phone or a screen.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation so we can see if we\u2019re a good fit. No pressure, no commitment."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Manchester and need someone to talk to, get in touch.",
+      "illustration": "woman-meditating.svg",
+      "illustrationAlt": "Illustration of a person meditating peacefully",
+      "statementText": "It\u2019s okay to need support. That\u2019s not weakness; it\u2019s self-awareness.",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "birmingham",
+      "city": "Birmingham",
+      "title": "Online Therapy in Birmingham",
+      "metaDescription": "Online counselling for people in Birmingham. BACP-accredited therapy from home. Flexible, affordable, and completely confidential.",
+      "heading": "Online Therapy in Birmingham",
+      "intro": "Birmingham is one of the UK\u2019s most diverse and dynamic cities, but like any big city, it comes with its own pressures. If you\u2019re living in Birmingham and struggling with your mental health, online therapy offers a flexible and accessible way to get support.",
+      "sections": [
+        {
+          "heading": "Challenges facing people in Birmingham",
+          "paragraphs": [
+            "From navigating a competitive job market to managing the pressures of student life, many people in Birmingham are dealing with stress, anxiety, and low mood. Economic uncertainty and the rising cost of living can make things feel even harder.",
+            "You might be putting on a brave face while quietly struggling. Or you might not even realise how much you\u2019ve been carrying until someone gives you space to talk about it."
+          ]
+        },
+        {
+          "heading": "Accessible therapy, no travel needed",
+          "paragraphs": [
+            "Online therapy removes the barriers that can make it hard to access support. No travel time, no waiting rooms, and no need to rearrange your whole day. You can talk from home, in your own time.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor offering sessions by Zoom or phone. We start with a free 15-minute chat so you can ask questions and see how it feels."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Birmingham and ready to talk, I\u2019d love to hear from you.",
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person in calm reflection",
+      "statementText": "You might not even realise how much you\u2019ve been carrying",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "leeds",
+      "city": "Leeds",
+      "title": "Online Therapy in Leeds",
+      "metaDescription": "Online counselling for people in Leeds. BACP-accredited therapy from the comfort of your own space. Flexible, confidential, and judgement-free.",
+      "heading": "Online Therapy in Leeds",
+      "intro": "Leeds is a city full of energy and ambition, but that doesn\u2019t mean life here is always easy. If you\u2019re a student, a young professional, or anyone in Leeds who\u2019s been struggling, online therapy gives you a private space to talk without having to leave your home.",
+      "sections": [
+        {
+          "heading": "The pressures of life in Leeds",
+          "paragraphs": [
+            "With a large student population and a growing professional sector, Leeds is a city where many people are juggling a lot. Academic pressure, career stress, financial worries, and the challenge of building a social life in a busy city.",
+            "It\u2019s easy to feel like you should be thriving when the reality feels very different. If that sounds familiar, you\u2019re not alone, and you don\u2019t have to keep pushing through it by yourself."
+          ]
+        },
+        {
+          "heading": "Therapy that fits your schedule",
+          "paragraphs": [
+            "Online sessions mean you can access therapy from wherever you feel comfortable. No commute, no waiting rooms. Whether you\u2019re in the city centre, Headingley, or anywhere else in Leeds, support is just a screen away.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute consultation to start, so you can see if it feels right before committing to anything."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Leeds and looking for support, I\u2019m here to listen.",
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace",
+      "statementText": "You don\u2019t have to keep pushing through it by yourself",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "bristol",
+      "city": "Bristol",
+      "title": "Online Therapy in Bristol",
+      "metaDescription": "Online therapy for people in Bristol. BACP-accredited counselling from home. A safe, supportive space to talk about what matters to you.",
+      "heading": "Online Therapy in Bristol",
+      "intro": "Bristol is known for its creativity and independence, but behind the vibrant culture, many people are quietly struggling. If you\u2019re living in Bristol and finding things difficult, online therapy offers a way to get support that fits around your life.",
+      "sections": [
+        {
+          "heading": "Life in Bristol",
+          "paragraphs": [
+            "Bristol\u2019s creative energy and strong sense of community are real strengths, but the city also faces challenges, including a competitive housing market, rising costs, and the pressure to maintain a certain lifestyle. For young people especially, it can feel like there\u2019s a gap between the life you\u2019re living and the one you want.",
+            "Whether you\u2019re dealing with anxiety, relationship difficulties, or a general sense of being stuck, those feelings deserve attention. You don\u2019t need to wait until things get worse before you reach out."
+          ]
+        },
+        {
+          "heading": "Support from your own space",
+          "paragraphs": [
+            "Online therapy means you can have your session from the comfort of your own home, whether you\u2019re in Clifton, Bedminster, or anywhere else in Bristol. No need to navigate traffic or public transport; just a private, confidential conversation.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation before we start, so you can ask any questions and see if it feels right."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Bristol and need a space to talk, I\u2019m here.",
+      "illustration": "woman-meditating.svg",
+      "illustrationAlt": "Illustration of a person meditating peacefully",
+      "statementText": "You don\u2019t need to wait until things get worse before you reach out",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "liverpool",
+      "city": "Liverpool",
+      "title": "Online Therapy in Liverpool",
+      "metaDescription": "Online counselling for people in Liverpool. BACP-accredited therapy from home. Warm, supportive, and completely confidential.",
+      "heading": "Online Therapy in Liverpool",
+      "intro": "Liverpool is a city with heart, but even in a community-minded place, it can be hard to open up about how you\u2019re really feeling. If you\u2019re struggling with your mental health, online therapy gives you a private, judgement-free space to talk.",
+      "sections": [
+        {
+          "heading": "What people in Liverpool are dealing with",
+          "paragraphs": [
+            "Like many cities in the north of England, Liverpool faces real economic pressures. Job insecurity, the cost of living, and limited access to mental health services can make it feel like support is out of reach. For young people navigating these challenges, it can be especially tough.",
+            "You might be dealing with anxiety, low mood, difficult relationships, or just a feeling that something isn\u2019t right. Whatever it is, it\u2019s enough of a reason to reach out."
+          ]
+        },
+        {
+          "heading": "Therapy without the barriers",
+          "paragraphs": [
+            "Online therapy removes the practical obstacles that often stop people getting help. Long waiting lists, travel time, and finding a therapist nearby. You can have your session from home, on a schedule that works for you.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer sessions by Zoom or phone, starting with a free 15-minute consultation. No pressure, no commitment."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Liverpool and ready to talk, I\u2019d love to hear from you.",
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person in calm reflection",
+      "statementText": "Whatever it is, it\u2019s enough of a reason to reach out",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "edinburgh",
+      "city": "Edinburgh",
+      "title": "Online Therapy in Edinburgh",
+      "metaDescription": "Online therapy for people in Edinburgh. BACP-accredited counselling from the comfort of your own space. Private, flexible, and at your pace.",
+      "heading": "Online Therapy in Edinburgh",
+      "intro": "Edinburgh is a beautiful city, but beauty doesn\u2019t protect you from the stresses of everyday life. If you\u2019re living in Edinburgh and struggling with your mental health, online therapy means you can access support without waiting for an NHS referral or searching for a local therapist.",
+      "sections": [
+        {
+          "heading": "Pressures of life in Edinburgh",
+          "paragraphs": [
+            "Edinburgh\u2019s high cost of living, intense festival culture, and competitive academic and professional environments can leave people feeling stretched thin. Students, in particular, face the pressure of university life in a city that can feel expensive and overwhelming.",
+            "The long, dark winters don\u2019t help either. Seasonal changes can amplify feelings of low mood, anxiety, and isolation, especially if you\u2019ve moved to the city and don\u2019t yet have a strong support network."
+          ]
+        },
+        {
+          "heading": "Flexible, accessible therapy",
+          "paragraphs": [
+            "Online therapy lets you access support from wherever you are in Edinburgh, with no need to travel across the city. Sessions take place by Zoom or phone, so all you need is a private space and an internet connection.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor based in the UK. I offer a free 15-minute phone consultation before we begin, so you can see if it feels right."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Edinburgh and need someone to talk to, get in touch.",
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace",
+      "statementText": "Beauty doesn\u2019t protect you from the stresses of everyday life",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "glasgow",
+      "city": "Glasgow",
+      "title": "Online Therapy in Glasgow",
+      "metaDescription": "Online counselling for people in Glasgow. BACP-accredited therapy you can access from home. Warm, supportive, and completely confidential.",
+      "heading": "Online Therapy in Glasgow",
+      "intro": "Glasgow is a warm, resilient city, but that doesn\u2019t mean everyone is doing fine. If you\u2019re living in Glasgow and finding things tough, you deserve support. Online therapy makes it easier to access help, without the long waits or travel.",
+      "sections": [
+        {
+          "heading": "The reality of life in Glasgow",
+          "paragraphs": [
+            "Glasgow has a strong sense of community, but it also faces significant challenges, including health inequalities, economic pressure, and mental health struggles that often go unspoken. Young people especially can feel the weight of financial stress, uncertain career prospects, and social pressure.",
+            "There\u2019s sometimes a cultural expectation to just get on with it. But bottling things up doesn\u2019t make them go away. It just makes them heavier."
+          ]
+        },
+        {
+          "heading": "Therapy on your terms",
+          "paragraphs": [
+            "Online therapy means no waiting lists, no travel, and no awkward waiting rooms. You can talk from home, from your car, or wherever feels safe and private. Sessions are by Zoom or phone, at a time that suits you.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute consultation to start. Just a relaxed chat to see if we\u2019re a good fit."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Glasgow and need a space to talk, I\u2019m here.",
+      "illustration": "woman-meditating.svg",
+      "illustrationAlt": "Illustration of a person meditating peacefully",
+      "statementText": "Bottling things up doesn\u2019t make them go away. It just makes them heavier.",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "cardiff",
+      "city": "Cardiff",
+      "title": "Online Therapy in Cardiff",
+      "metaDescription": "Online therapy for people in Cardiff. BACP-accredited counselling from home. A safe, confidential space to talk about how you're feeling.",
+      "heading": "Online Therapy in Cardiff",
+      "intro": "Cardiff is a growing, vibrant capital, but growth brings pressure. If you\u2019re living in Cardiff and struggling with stress, anxiety, or low mood, online therapy gives you access to professional support without having to wait or travel.",
+      "sections": [
+        {
+          "heading": "Challenges facing people in Cardiff",
+          "paragraphs": [
+            "Cardiff\u2019s student population, growing tech sector, and young professional scene bring energy to the city, but also real pressure. Balancing work or study with the rising cost of living can leave people feeling overwhelmed and anxious.",
+            "Whether you\u2019re new to Cardiff or have lived here your whole life, it\u2019s okay to admit that things feel hard. Asking for help isn\u2019t a sign of weakness. It\u2019s a step towards feeling better."
+          ]
+        },
+        {
+          "heading": "Support from the comfort of home",
+          "paragraphs": [
+            "With online therapy, you can access sessions from wherever you are in Cardiff. No travel, no waiting rooms. All you need is a private space and a phone or laptop.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation before we start, so there\u2019s no pressure to commit until you\u2019re ready."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Cardiff and ready to talk, I\u2019d love to hear from you.",
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person in calm reflection",
+      "statementText": "Asking for help isn\u2019t a sign of weakness",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "nottingham",
+      "city": "Nottingham",
+      "title": "Online Therapy in Nottingham",
+      "metaDescription": "Online counselling for people in Nottingham. BACP-accredited therapy from home. Flexible, private, and at your own pace.",
+      "heading": "Online Therapy in Nottingham",
+      "intro": "Nottingham is a friendly, creative city, but that doesn\u2019t mean everyone here is having an easy time. If you\u2019re a student, a young professional, or anyone in Nottingham who\u2019s struggling, online therapy offers a simple way to access support.",
+      "sections": [
+        {
+          "heading": "Life in Nottingham",
+          "paragraphs": [
+            "With two major universities and a growing economy, Nottingham is home to a large number of young people navigating the pressures of study, early careers, and financial stress. The transition to independent living, away from family and old support networks, can leave people feeling isolated.",
+            "You might be dealing with anxiety, loneliness, relationship issues, or a sense that you\u2019re just going through the motions. Whatever it is, those feelings matter."
+          ]
+        },
+        {
+          "heading": "Therapy that comes to you",
+          "paragraphs": [
+            "Online sessions mean you can access therapy without having to find a local therapist or sit on a waiting list. You can talk from your flat, your university accommodation, or wherever feels comfortable.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation to start, so you can ask anything and see if it feels right."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Nottingham and need someone to talk to, I\u2019m here.",
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace",
+      "statementText": "Whatever it is, those feelings matter",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "sheffield",
+      "city": "Sheffield",
+      "title": "Online Therapy in Sheffield",
+      "metaDescription": "Online therapy for people in Sheffield. BACP-accredited counselling from the comfort of your own space. Supportive, confidential, and judgement-free.",
+      "heading": "Online Therapy in Sheffield",
+      "intro": "Sheffield is a city known for its grit and warmth, but even the toughest people need support sometimes. If you\u2019re living in Sheffield and dealing with something difficult, online therapy gives you a space to talk without having to explain yourself to anyone else.",
+      "sections": [
+        {
+          "heading": "What people in Sheffield face",
+          "paragraphs": [
+            "Sheffield has a large and diverse population, with students, young families, and professionals all navigating the challenges of modern life. Financial pressure, job insecurity, and the demands of university can all take their toll.",
+            "There can also be a cultural pressure to just cope, to not make a fuss. But keeping things to yourself doesn\u2019t make them easier. Sometimes, having someone genuinely listen is what makes the difference."
+          ]
+        },
+        {
+          "heading": "Private, flexible support",
+          "paragraphs": [
+            "Online therapy means no travelling across the city, no waiting rooms, and no awkward encounters. You can have your session from wherever feels safe. Your home, your room, wherever you\u2019re most comfortable.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute consultation before we start. It\u2019s just a relaxed chat, no obligation."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Sheffield and need a space to talk, get in touch.",
+      "illustration": "woman-meditating.svg",
+      "illustrationAlt": "Illustration of a person meditating peacefully",
+      "statementText": "Sometimes, having someone genuinely listen is what makes the difference",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "newcastle",
+      "city": "Newcastle",
+      "title": "Online Therapy in Newcastle",
+      "metaDescription": "Online counselling for people in Newcastle. BACP-accredited therapy from home. Warm, confidential, and completely at your pace.",
+      "heading": "Online Therapy in Newcastle",
+      "intro": "Newcastle is a proud, lively city, but behind the friendly exterior, many people are dealing with real struggles. If you\u2019re in Newcastle and finding things tough, online therapy offers a way to get professional support without the barriers.",
+      "sections": [
+        {
+          "heading": "Pressures of life in Newcastle",
+          "paragraphs": [
+            "Newcastle has a strong sense of community, but the North East also faces some of the highest rates of mental health difficulties in the country. Economic challenges, limited local mental health provision, and the pressures of student life all play a part.",
+            "You might be struggling with anxiety, depression, relationship issues, or simply feeling stuck. Whatever you\u2019re going through, you don\u2019t have to face it alone, and you don\u2019t need to wait until it feels like a crisis to ask for help."
+          ]
+        },
+        {
+          "heading": "Therapy without the wait",
+          "paragraphs": [
+            "Online therapy means you can skip the NHS waiting list and access support now. Sessions are by Zoom or phone, so you can talk from the comfort of your own home, wherever you are in Newcastle.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation before we begin. It\u2019s just a chance for us to chat, no pressure at all."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Newcastle and ready to talk, I\u2019m here to listen.",
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person in calm reflection",
+      "statementText": "You don\u2019t have to face it alone",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "brighton",
+      "city": "Brighton",
+      "title": "Online Therapy in Brighton",
+      "metaDescription": "Online therapy for people in Brighton. BACP-accredited counselling from home. A safe, affirming space to talk about what you're going through.",
+      "heading": "Online Therapy in Brighton",
+      "intro": "Brighton is known for its openness and creativity, but that doesn\u2019t mean life here is always easy. If you\u2019re living in Brighton and struggling with your mental health, online therapy gives you a private, flexible way to get the support you deserve.",
+      "sections": [
+        {
+          "heading": "The reality behind the Brighton lifestyle",
+          "paragraphs": [
+            "Brighton attracts people who value individuality and freedom, but the city also has real challenges, including high rents, seasonal work patterns, and the pressure to live up to a carefree image. It\u2019s a city where many people are dealing with things beneath the surface.",
+            "Whether you\u2019re navigating identity questions, dealing with the after-effects of difficult experiences, or simply feeling like something isn\u2019t right, your feelings are valid and they deserve space."
+          ]
+        },
+        {
+          "heading": "A safe space from home",
+          "paragraphs": [
+            "Online therapy means you don\u2019t need to search for a local therapist or sit on a waiting list. You can access support from your living room, your bedroom, or wherever you feel most at ease.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. My approach is warm, affirming, and completely non-judgemental. I offer a free 15-minute phone consultation to start."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Brighton and need someone to talk to, I\u2019d love to hear from you.",
+      "illustration": "man-playing-birds.svg",
+      "illustrationAlt": "Illustration of a person finding peace",
+      "statementText": "Your feelings are valid and they deserve space",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    },
+    {
+      "slug": "cambridge",
+      "city": "Cambridge",
+      "title": "Online Therapy in Cambridge",
+      "metaDescription": "Online therapy for people in Cambridge. BACP-accredited counselling from home. A supportive space for students, professionals, and anyone who needs to talk.",
+      "heading": "Online Therapy in Cambridge",
+      "intro": "Cambridge is a city of high achievers, but behind the academic excellence, many people are struggling with the pressure to perform. If you\u2019re living in Cambridge and finding things difficult, online therapy offers a space where you can be honest about how you\u2019re really feeling.",
+      "sections": [
+        {
+          "heading": "The weight of high expectations",
+          "paragraphs": [
+            "Cambridge\u2019s academic and professional culture can create intense pressure to succeed. Imposter syndrome, perfectionism, and burnout are incredibly common, but rarely talked about openly. The feeling that everyone around you is coping brilliantly can make your own struggles feel shameful.",
+            "Whether you\u2019re a student, a researcher, or a professional, the demands of life in Cambridge can leave you feeling exhausted, anxious, or disconnected from the things that matter. That\u2019s not a personal failing. It\u2019s a natural response to an intense environment."
+          ]
+        },
+        {
+          "heading": "Confidential support, from home",
+          "paragraphs": [
+            "Online therapy means you can access support discreetly and privately, without anyone needing to know. Sessions are by Zoom or phone, so you can talk from wherever feels safest.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation to start. Just a chance for us to chat and see if we\u2019re a good fit."
+          ]
+        }
+      ],
+      "ctaText": "If the pressure is getting to you, you don\u2019t have to carry it alone. I\u2019m here.",
+      "illustration": "woman-meditating.svg",
+      "illustrationAlt": "Illustration of a person meditating peacefully",
+      "statementText": "That\u2019s not a personal failing. It\u2019s a natural response to an intense environment.",
+      "statementBg": "terracotta",
+      "statementShadow": "purple"
+    },
+    {
+      "slug": "oxford",
+      "city": "Oxford",
+      "title": "Online Therapy in Oxford",
+      "metaDescription": "Online counselling for people in Oxford. BACP-accredited therapy from home. A safe, non-judgemental space for anyone who needs to talk.",
+      "heading": "Online Therapy in Oxford",
+      "intro": "Oxford is a city steeped in tradition and achievement, but that legacy of excellence can weigh heavily. If you\u2019re living in Oxford and struggling with stress, anxiety, or low mood, online therapy offers a way to get support that truly fits your life.",
+      "sections": [
+        {
+          "heading": "Living up to Oxford\u2019s expectations",
+          "paragraphs": [
+            "Whether you\u2019re a student, an academic, or someone working in Oxford\u2019s competitive professional landscape, the pressure to perform can be relentless. Imposter syndrome, burnout, and perfectionism are incredibly common in environments like this, but admitting you\u2019re struggling can feel impossible.",
+            "The cost of living in Oxford adds another layer of stress, particularly for younger people. Financial pressure combined with academic or career demands can leave you feeling overwhelmed and isolated."
+          ]
+        },
+        {
+          "heading": "Private, judgement-free therapy",
+          "paragraphs": [
+            "Online therapy gives you a space to be completely honest, without worrying about running into someone you know in a waiting room. You can talk from the privacy of your own home, at a time that works for you.",
+            "I\u2019m Harriet, a BACP-accredited person-centred counsellor. I offer a free 15-minute phone consultation before we start. It\u2019s just a relaxed chat, no commitment, no pressure."
+          ]
+        }
+      ],
+      "ctaText": "If you\u2019re in Oxford and need someone to talk to, get in touch.",
+      "illustration": "cloud-meditating.svg",
+      "illustrationAlt": "Illustration of a person in calm reflection",
+      "statementText": "You don\u2019t have to carry it alone",
+      "statementBg": "lilac",
+      "statementShadow": "orange"
+    }
+  ]
+}

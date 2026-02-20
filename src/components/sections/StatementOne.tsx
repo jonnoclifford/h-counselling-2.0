@@ -1,15 +1,20 @@
 "use client";
 
 import Statement from "@/components/sections/Statement";
+import type { StatementConfig } from "@/types/content";
 
-export default function StatementOne() {
+interface StatementOneProps {
+  data: StatementConfig;
+}
+
+export default function StatementOne({ data }: StatementOneProps) {
   return (
     <Statement
-      bg="lilac"
-      shadow="orange"
-      subtitle={<>You don&apos;t need to wait until things get worse.<br />If something feels off, that&apos;s reason enough to talk.</>}
+      bg={data.bg}
+      shadow={data.shadow}
+      subtitle={data.subtitle}
     >
-      You deserve to feel like<br className="hidden md:block" /> yourself again.
+      {data.text}
     </Statement>
   );
 }

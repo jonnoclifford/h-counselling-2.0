@@ -3,16 +3,13 @@
 import Image from "next/image";
 import AnimateIn from "@/components/ui/AnimateIn";
 import Button from "@/components/ui/Button";
+import type { AboutConfig } from "@/types/content";
 
-const qualifications = [
-  "BA Honours Degree",
-  "Diploma in Counselling and Psychotherapy",
-  "CPD Certificate in Creative Techniques",
-  "BACP Accredited Member (MBACP)",
-  "Registered with the BACP (Membership No. 407181)",
-];
+interface AboutContentProps {
+  data: AboutConfig;
+}
 
-export default function AboutContent() {
+export default function AboutContent({ data }: AboutContentProps) {
   return (
     <>
       {/* My Story */}
@@ -22,45 +19,19 @@ export default function AboutContent() {
             <div className="lg:col-span-4">
               <AnimateIn>
                 <span className="inline-block text-terracotta font-body font-medium text-sm tracking-wide mb-3">
-                  My story
+                  {data.story.label}
                 </span>
                 <h2 className="font-display text-3xl md:text-4xl text-warm-charcoal">
-                  The winding path that brought me here
+                  {data.story.heading}
                 </h2>
               </AnimateIn>
             </div>
             <div className="lg:col-span-8">
               <AnimateIn delay={0.1}>
                 <div className="space-y-5 text-warm-muted leading-relaxed text-base md:text-[17px]">
-                  <p>
-                    I didn&apos;t always know I wanted to be a therapist. Like
-                    many people, I took a winding path to get here. And I
-                    think that&apos;s part of what makes me good at what I do.
-                  </p>
-                  <p>
-                    My own experiences with life&apos;s challenges taught me how
-                    powerful it is to be truly listened to. Not fixed, not
-                    advised, not judged. Just heard. That feeling of being
-                    understood, without conditions, changed something in me.
-                  </p>
-                  <p>
-                    I trained as a person-centred counsellor because I believe
-                    deeply that people have the capacity to find their own
-                    answers. They just need the right space to do it.
-                  </p>
-                  <p>
-                    I completed my Diploma in Counselling and Psychotherapy and
-                    went on to gain additional training in creative therapeutic
-                    techniques. I&apos;m a fully accredited member of the BACP,
-                    which means I&apos;m bound by their ethical framework and
-                    committed to ongoing professional development.
-                  </p>
-                  <p>
-                    Today, I work online and by telephone, which means you can
-                    access therapy from wherever feels most comfortable and safe
-                    for you. Whether that&apos;s your living room, your
-                    car, or a quiet corner of your day.
-                  </p>
+                  {data.story.paragraphs.map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
                 </div>
               </AnimateIn>
             </div>
@@ -75,30 +46,17 @@ export default function AboutContent() {
             <div>
               <AnimateIn>
                 <span className="inline-block text-lilac-dark font-body font-medium text-sm tracking-wide mb-3">
-                  My approach
+                  {data.approach.label}
                 </span>
                 <h2 className="font-display text-3xl md:text-4xl text-warm-charcoal mb-6">
-                  You are the expert on your own life
+                  {data.approach.heading}
                 </h2>
               </AnimateIn>
               <AnimateIn delay={0.1}>
                 <div className="space-y-5 text-warm-muted leading-relaxed">
-                  <p>
-                    I don&apos;t tell you what to do or give you a list of
-                    exercises to try. Instead, I create a space where you can
-                    talk openly about whatever matters to you, without being
-                    judged.
-                  </p>
-                  <p>
-                    Person-centred therapy is built on the belief that you are
-                    the expert on your own life. You know yourself better than
-                    anyone else.
-                  </p>
-                  <p>
-                    We work at your pace. Some sessions might feel heavy, others
-                    might feel lighter. There&apos;s no wrong way to do it. What
-                    matters is that the space is yours.
-                  </p>
+                  {data.approach.paragraphs.map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
                 </div>
               </AnimateIn>
             </div>
@@ -106,8 +64,8 @@ export default function AboutContent() {
               <div className="relative w-full max-w-md mx-auto">
                 <div className="aspect-square rounded-3xl bg-lilac-light/40 overflow-hidden relative">
                   <Image
-                    src="/images/illustrations/man-playing-birds.svg"
-                    alt="Illustration of a person at peace"
+                    src={`/images/illustrations/${data.approach.illustration}`}
+                    alt={data.approach.illustrationAlt}
                     fill
                     className="object-contain p-10"
                   />
@@ -125,17 +83,17 @@ export default function AboutContent() {
             <div className="lg:col-span-4">
               <AnimateIn>
                 <span className="inline-block text-matcha-dark font-body font-medium text-sm tracking-wide mb-3">
-                  Qualifications
+                  {data.qualifications.label}
                 </span>
                 <h2 className="font-display text-3xl md:text-4xl text-warm-charcoal">
-                  Training &amp; credentials
+                  {data.qualifications.heading}
                 </h2>
               </AnimateIn>
             </div>
             <div className="lg:col-span-8">
               <AnimateIn delay={0.1}>
                 <ul className="space-y-4">
-                  {qualifications.map((qual, index) => (
+                  {data.qualifications.items.map((qual, index) => (
                     <li
                       key={index}
                       className="flex items-start gap-3 text-warm-muted"
@@ -156,19 +114,17 @@ export default function AboutContent() {
         <div className="max-w-3xl mx-auto px-5 md:px-8 text-center">
           <AnimateIn>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-warm-charcoal mb-5">
-              Ready to say hello?
+              {data.cta.heading}
             </h2>
           </AnimateIn>
           <AnimateIn delay={0.1}>
             <p className="text-warm-muted text-lg leading-relaxed mb-8 max-w-xl mx-auto">
-              If you&apos;d like to find out more, or you&apos;re ready to get
-              started, I&apos;d love to hear from you. No pressure, no
-              commitment. Just a conversation.
+              {data.cta.description}
             </p>
           </AnimateIn>
           <AnimateIn delay={0.2}>
-            <Button href="/contact" size="lg">
-              Get In Touch
+            <Button href={data.cta.buttonHref} size="lg">
+              {data.cta.buttonText}
             </Button>
           </AnimateIn>
         </div>

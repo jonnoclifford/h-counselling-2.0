@@ -2,8 +2,13 @@
 
 import AnimateIn from "@/components/ui/AnimateIn";
 import ContactForm from "@/components/ui/ContactForm";
+import type { ContactConfig } from "@/types/content";
 
-export default function ContactContent() {
+interface ContactContentProps {
+  data: ContactConfig;
+}
+
+export default function ContactContent({ data }: ContactContentProps) {
   return (
     <>
       {/* Form + Sidebar */}
@@ -27,60 +32,40 @@ export default function ContactContent() {
                       Email me directly
                     </h3>
                     <a
-                      href="mailto:hcounselling@outlook.com"
+                      href={`mailto:${data.email}`}
                       className="text-terracotta hover:underline break-all"
                     >
-                      hcounselling@outlook.com
+                      {data.email}
                     </a>
                     <p className="text-warm-muted text-sm mt-3 leading-relaxed">
-                      I&apos;ll get back to you within 24&ndash;48 hours.
+                      {data.emailResponseTime}
                     </p>
                   </div>
 
                   {/* What Happens Next */}
                   <div className="bg-oat-dark/60 rounded-2xl p-6 md:p-8">
                     <h3 className="font-display text-xl text-warm-charcoal mb-3">
-                      What happens next?
+                      {data.whatHappensNext.heading}
                     </h3>
                     <ol className="space-y-3 text-warm-muted text-sm leading-relaxed">
-                      <li className="flex gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-terracotta/10 text-terracotta text-xs font-semibold flex items-center justify-center mt-0.5">
-                          1
-                        </span>
-                        <span>
-                          I&apos;ll respond to your message within 24&ndash;48
-                          hours.
-                        </span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-terracotta/10 text-terracotta text-xs font-semibold flex items-center justify-center mt-0.5">
-                          2
-                        </span>
-                        <span>
-                          We&apos;ll arrange a free 15-minute phone call,
-                          just a relaxed chat to see if we&apos;re a good fit.
-                        </span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-terracotta/10 text-terracotta text-xs font-semibold flex items-center justify-center mt-0.5">
-                          3
-                        </span>
-                        <span>
-                          If it feels right, we&apos;ll book your first session
-                          at a time that works for you.
-                        </span>
-                      </li>
+                      {data.whatHappensNext.steps.map((step, index) => (
+                        <li key={index} className="flex gap-3">
+                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-terracotta/10 text-terracotta text-xs font-semibold flex items-center justify-center mt-0.5">
+                            {index + 1}
+                          </span>
+                          <span>{step}</span>
+                        </li>
+                      ))}
                     </ol>
                   </div>
 
                   {/* Calendly Placeholder */}
                   <div className="bg-lilac-light/30 rounded-2xl p-6 md:p-8 border-2 border-dashed border-lilac/40">
                     <h3 className="font-display text-xl text-warm-charcoal mb-2">
-                      Book directly
+                      {data.bookDirectly.heading}
                     </h3>
                     <p className="text-warm-muted text-sm leading-relaxed mb-4">
-                      Prefer to pick a time yourself? You can book your free
-                      15-minute consultation directly.
+                      {data.bookDirectly.description}
                     </p>
                     <div className="bg-oat rounded-xl p-8 text-center text-warm-light text-sm">
                       Calendly booking widget will appear here

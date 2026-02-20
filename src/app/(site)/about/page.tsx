@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { getSiteConfig } from "@/lib/cms";
 import AboutContent from "./AboutContent";
 
 export const metadata: Metadata = {
@@ -8,7 +9,10 @@ export const metadata: Metadata = {
     "Learn about Harriet, a BACP-accredited person-centred counsellor offering online and telephone therapy.",
 };
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const config = await getSiteConfig();
+  const { about } = config;
+
   return (
     <>
       {/* Hero */}
@@ -20,11 +24,10 @@ export default function AboutPage() {
                 About me
               </span>
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-warm-charcoal mb-6">
-                Hi, I&apos;m Harriet
+                {about.hero.heading}
               </h1>
               <p className="text-warm-muted text-lg md:text-xl leading-relaxed max-w-lg">
-                A person-centred counsellor who believes you already have the
-                answers. You just need the right space to find them.
+                {about.hero.subtitle}
               </p>
             </div>
             <div className="flex justify-center lg:justify-end">
@@ -42,7 +45,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <AboutContent />
+      <AboutContent data={about} />
     </>
   );
 }

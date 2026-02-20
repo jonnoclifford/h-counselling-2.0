@@ -4,7 +4,18 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import AnimateIn from "@/components/ui/AnimateIn";
 
-export default function CTA() {
+interface CTAProps {
+  data: {
+    heading: string;
+    description: string;
+    buttonText: string;
+    buttonHref: string;
+    emailText: string;
+    email: string;
+  };
+}
+
+export default function CTA({ data }: CTAProps) {
   return (
     <section className="py-20 md:py-32 relative overflow-hidden">
       {/* Decorative blobs */}
@@ -26,31 +37,29 @@ export default function CTA() {
 
         <AnimateIn delay={0.1}>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-warm-charcoal mb-6">
-            Ready to take the first step?
+            {data.heading}
           </h2>
         </AnimateIn>
 
         <AnimateIn delay={0.2}>
           <p className="text-warm-muted text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-10">
-            Taking the first step can feel like the hardest part. But you
-            don&apos;t have to have it all figured out. Just get in touch and
-            we&apos;ll take it from there.
+            {data.description}
           </p>
         </AnimateIn>
 
         <AnimateIn delay={0.3}>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button href="/contact" size="lg">
-              Book Your Free Consultation
+            <Button href={data.buttonHref} size="lg">
+              {data.buttonText}
             </Button>
           </div>
           <p className="mt-6 text-warm-light text-sm">
-            Or email me directly at{" "}
+            {data.emailText}{" "}
             <a
-              href="mailto:hcounselling@outlook.com"
+              href={`mailto:${data.email}`}
               className="text-terracotta hover:underline"
             >
-              hcounselling@outlook.com
+              {data.email}
             </a>
           </p>
         </AnimateIn>

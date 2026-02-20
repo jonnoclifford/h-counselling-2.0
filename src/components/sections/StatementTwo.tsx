@@ -1,16 +1,20 @@
 "use client";
 
 import Statement from "@/components/sections/Statement";
+import type { StatementConfig } from "@/types/content";
 
-export default function StatementTwo() {
+interface StatementTwoProps {
+  data: StatementConfig;
+}
+
+export default function StatementTwo({ data }: StatementTwoProps) {
   return (
     <Statement
-      bg="terracotta"
-      shadow="purple"
-      subtitle="Even being here, reading this. That's a step. And it matters."
+      bg={data.bg}
+      shadow={data.shadow}
+      subtitle={data.subtitle}
     >
-      Reaching out takes courage.
-      You&apos;ve already started.
+      {data.text}
     </Statement>
   );
 }

@@ -4,7 +4,19 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import AnimateIn from "@/components/ui/AnimateIn";
 
-export default function Hero() {
+interface HeroProps {
+  data: {
+    label: string;
+    heading: string;
+    subheading: string;
+    primaryCta: { text: string; href: string };
+    secondaryCta: { text: string; href: string };
+    illustration: string;
+    illustrationAlt: string;
+  };
+}
+
+export default function Hero({ data }: HeroProps) {
   return (
     <section className="relative md:min-h-screen flex items-center overflow-hidden pt-32 pb-10 md:pt-0 md:pb-0">
       {/* Decorative blobs */}
@@ -18,7 +30,7 @@ export default function Hero() {
           <div className="order-2 lg:order-1">
             <AnimateIn delay={0.1}>
               <span className="inline-block text-terracotta font-body font-medium text-sm md:text-base tracking-wide mb-4">
-                Online &amp; telephone therapy
+                {data.label}
               </span>
             </AnimateIn>
 
@@ -27,25 +39,23 @@ export default function Hero() {
                 className="font-display text-[2.5rem] md:text-7xl lg:text-8xl text-warm-charcoal leading-[1.1] mb-4 md:mb-6"
                 style={{ textShadow: "2px 2px 0px #C7BADA" }}
               >
-                You don&apos;t need to have it all figured out
+                {data.heading}
               </h1>
             </AnimateIn>
 
             <AnimateIn delay={0.35}>
               <p className="text-warm-muted text-lg md:text-2xl leading-relaxed max-w-lg mb-6 md:mb-8">
-                A safe, warm space to talk about whatever matters to you.
-                Person-centred therapy at your pace, from wherever feels
-                most comfortable.
+                {data.subheading}
               </p>
             </AnimateIn>
 
             <AnimateIn delay={0.45}>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/contact" size="lg">
-                  Book a Free 15-Min Chat
+                <Button href={data.primaryCta.href} size="lg">
+                  {data.primaryCta.text}
                 </Button>
-                <Button href="/about" variant="outline" size="lg">
-                  Learn More
+                <Button href={data.secondaryCta.href} variant="outline" size="lg">
+                  {data.secondaryCta.text}
                 </Button>
               </div>
             </AnimateIn>
@@ -58,8 +68,8 @@ export default function Hero() {
                 {/* Soft background circle */}
                 <div className="absolute -inset-2 md:inset-0 md:scale-110 bg-[#E1DDE8] rounded-full" />
                 <Image
-                  src="/images/illustrations/man-playing-birds.svg"
-                  alt="Illustration of a person finding peace, surrounded by birds"
+                  src={`/images/illustrations/${data.illustration}`}
+                  alt={data.illustrationAlt}
                   fill
                   className="object-contain relative z-10 p-10"
                   priority

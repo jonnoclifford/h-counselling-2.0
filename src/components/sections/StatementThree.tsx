@@ -1,11 +1,20 @@
 "use client";
 
 import Statement from "@/components/sections/Statement";
+import type { StatementConfig } from "@/types/content";
 
-export default function StatementThree() {
+interface StatementThreeProps {
+  data: StatementConfig;
+}
+
+export default function StatementThree({ data }: StatementThreeProps) {
   return (
-    <Statement bg="lilac" shadow="orange">
-      You don&apos;t have to carry it<br className="hidden md:block" /> all on your own.
+    <Statement
+      bg={data.bg}
+      shadow={data.shadow}
+      subtitle={data.subtitle}
+    >
+      {data.text}
     </Statement>
   );
 }
