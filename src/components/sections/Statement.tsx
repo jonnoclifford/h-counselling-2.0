@@ -63,7 +63,13 @@ export default function Statement({
             <p
               className={`mt-6 md:mt-8 ${styles.subtitle} text-lg md:text-xl max-w-2xl mx-auto leading-relaxed`}
             >
-              {subtitle}
+              {typeof subtitle === "string"
+                ? subtitle.split('. ').map((sentence, i, arr) => (
+                    <span key={i} className={i > 0 ? "block mt-2" : ""}>
+                      {sentence}{i < arr.length - 1 ? '.' : ''}
+                    </span>
+                  ))
+                : subtitle}
             </p>
           </AnimateIn>
         )}

@@ -58,19 +58,6 @@ export default function ContactContent({ data }: ContactContentProps) {
                       ))}
                     </ol>
                   </div>
-
-                  {/* Calendly Placeholder */}
-                  <div className="bg-lilac-light/30 rounded-2xl p-6 md:p-8 border-2 border-dashed border-lilac/40">
-                    <h3 className="font-display text-xl text-warm-charcoal mb-2">
-                      {data.bookDirectly.heading}
-                    </h3>
-                    <p className="text-warm-muted text-sm leading-relaxed mb-4">
-                      {data.bookDirectly.description}
-                    </p>
-                    <div className="bg-oat rounded-xl p-8 text-center text-warm-light text-sm">
-                      Calendly booking widget will appear here
-                    </div>
-                  </div>
                 </div>
               </AnimateIn>
             </div>

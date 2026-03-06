@@ -1,5 +1,14 @@
 import type { Metadata } from "next";
+import { DM_Serif_Display } from "next/font/google";
 import "./globals.css";
+
+const dmSerif = DM_Serif_Display({
+  subsets: ["latin"],
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-dm-serif",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -50,7 +59,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${dmSerif.variable} antialiased`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

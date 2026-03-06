@@ -30,7 +30,11 @@ export default function Services({ data }: ServicesProps) {
           </AnimateIn>
           <AnimateIn delay={0.2}>
             <p className="text-warm-muted text-lg">
-              {data.description}
+              {data.description.split('. ').map((sentence, i, arr) => (
+                <span key={i} className={i > 0 ? "block mt-2" : ""}>
+                  {sentence}{i < arr.length - 1 ? '.' : ''}
+                </span>
+              ))}
             </p>
           </AnimateIn>
         </div>

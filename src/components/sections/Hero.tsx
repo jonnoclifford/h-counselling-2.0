@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Button from "@/components/ui/Button";
 import AnimateIn from "@/components/ui/AnimateIn";
 
@@ -25,58 +24,42 @@ export default function Hero({ data }: HeroProps) {
       <div className="absolute -bottom-16 left-1/2 w-48 h-48 md:w-80 md:h-80 bg-matcha-light/20 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-7xl mx-auto px-5 md:px-8 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-16 items-center">
-          {/* Text Side */}
-          <div className="order-2 lg:order-1">
-            <AnimateIn delay={0.1}>
-              <span className="inline-block text-terracotta font-body font-medium text-sm md:text-base tracking-wide mb-4">
-                {data.label}
-              </span>
-            </AnimateIn>
+        <div className="lg:w-3/4">
+          <AnimateIn delay={0.1}>
+            <span className="inline-block text-terracotta font-body font-medium text-sm md:text-base tracking-wide mb-4">
+              {data.label}
+            </span>
+          </AnimateIn>
 
-            <AnimateIn delay={0.2}>
-              <h1
-                className="font-display text-[2.5rem] md:text-7xl lg:text-8xl text-warm-charcoal leading-[1.1] mb-4 md:mb-6"
-                style={{ textShadow: "2px 2px 0px #C7BADA" }}
-              >
-                {data.heading}
-              </h1>
-            </AnimateIn>
+          <AnimateIn delay={0.2}>
+            <h1
+              className="font-display text-[2.5rem] md:text-7xl lg:text-8xl text-warm-charcoal leading-[1.1] mb-4 md:mb-6"
+              style={{ textShadow: "2px 2px 0px #C7BADA" }}
+            >
+              {data.heading}
+            </h1>
+          </AnimateIn>
 
-            <AnimateIn delay={0.35}>
-              <p className="text-warm-muted text-lg md:text-2xl leading-relaxed max-w-lg mb-6 md:mb-8">
-                {data.subheading}
-              </p>
-            </AnimateIn>
+          <AnimateIn delay={0.35}>
+            <p className="text-warm-muted text-lg md:text-2xl leading-relaxed mb-6 md:mb-8">
+              {data.subheading.split('. ').map((sentence, i, arr) => (
+                <span key={i} className={i > 0 ? "block mt-2" : ""}>
+                  {sentence}{i < arr.length - 1 ? '.' : ''}
+                </span>
+              ))}
+            </p>
+          </AnimateIn>
 
-            <AnimateIn delay={0.45}>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button href={data.primaryCta.href} size="lg">
-                  {data.primaryCta.text}
-                </Button>
-                <Button href={data.secondaryCta.href} variant="outline" size="lg">
-                  {data.secondaryCta.text}
-                </Button>
-              </div>
-            </AnimateIn>
-          </div>
-
-          {/* Illustration Side */}
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-            <AnimateIn delay={0.3} direction="right">
-              <div className="relative w-56 h-56 md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px]">
-                {/* Soft background circle */}
-                <div className="absolute -inset-2 md:inset-0 md:scale-110 bg-[#E1DDE8] rounded-full" />
-                <Image
-                  src={`/images/illustrations/${data.illustration}`}
-                  alt={data.illustrationAlt}
-                  fill
-                  className="object-contain relative z-10 p-10"
-                  priority
-                />
-              </div>
-            </AnimateIn>
-          </div>
+          <AnimateIn delay={0.45}>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button href={data.primaryCta.href} size="lg">
+                {data.primaryCta.text}
+              </Button>
+              <Button href={data.secondaryCta.href} variant="outline" size="lg">
+                {data.secondaryCta.text}
+              </Button>
+            </div>
+          </AnimateIn>
         </div>
       </div>
     </section>

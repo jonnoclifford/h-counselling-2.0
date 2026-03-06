@@ -4,7 +4,7 @@ import MarqueeBand from "@/components/sections/MarqueeBand";
 import Introduction from "@/components/sections/Introduction";
 import StatementOne from "@/components/sections/StatementOne";
 import Services from "@/components/sections/Services";
-import StatementTwo from "@/components/sections/StatementTwo";
+
 import Process from "@/components/sections/Process";
 import Testimonials from "@/components/sections/Testimonials";
 import StatementThree from "@/components/sections/StatementThree";
@@ -21,7 +21,6 @@ export default async function Home() {
       <Introduction data={homepage.introduction} />
       <StatementOne data={homepage.statements[0]} />
       <Services data={homepage.services} />
-      <StatementTwo data={homepage.statements[1]} />
       <Process data={homepage.process} />
       <Testimonials data={homepage.testimonials} />
       <StatementThree data={homepage.statements[2]} />
